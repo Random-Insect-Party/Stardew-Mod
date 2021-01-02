@@ -484,9 +484,10 @@
             "Update": "OnLocationChange",            
 		    "When":
             {
-                "HasFile:{{Target}}/{{TargetWithoutPath}}_Aerobics.png": true,
+				"HasFile:{{FromFile}}": true, 	 
                 "DayOfWeek": "Tuesday",
                 "LocationName": "SeedShop",
+				"Weather": "sun, wind, snow"
             }
         },	
 

@@ -338,7 +338,15 @@
       "Target": "Maps/Farm,Maps",
       "FromFile": "assets/MapPatches/RemoveTableFromBackyard.tbin",
 	  "ToArea": { "X": 45, "Y": 6, "Width": 3, "Height": 4 },
-	  "When": { "Remove_Table_From_Backyard": "true", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+	  "When": { "Remove_Table_From_Backyard": "true", "Farm_Sandbox_Layout": "false", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
+    },
+	
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Farm,Maps",
+      "FromFile": "assets/MapPatches/RemoveTableFromBackyard_Sandbox.tbin",
+	  "ToArea": { "X": 45, "Y": 6, "Width": 3, "Height": 4 },
+	  "When": { "Remove_Table_From_Backyard": "true", "Farm_Sandbox_Layout": "true", "FarmType": "Standard", "HasMod |contains=flashshifter.GrandpasFarm": false }
     },
 	
 	{

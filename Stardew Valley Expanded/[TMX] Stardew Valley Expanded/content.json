@@ -1421,8 +1421,14 @@
         ],
     },
     {
-      "id": "ClaireShop",
+        "id": "ClaireShop",
         "inventory": [
+		  {
+              "index":272,
+              "type":"BigObject",
+              "Price":50000,
+			  "conditions": "e 502261",
+          },
 		  {
               "index":167,
               "type":"Object",
@@ -1608,9 +1614,16 @@
           "assets/ShopPortraits/Joja/ClaireShop.png",
         ],
     },
-{
-      "id": "MartinShop",
+
+    {
+       "id": "MartinShop",
         "inventory": [
+          {
+              "index":272,
+              "type":"BigObject",
+              "Price":50000,
+			  "conditions": "e 502261",
+          },
 		  {
               "index":167,
               "type":"Object",
@@ -1796,6 +1809,7 @@
           "assets/ShopPortraits/Joja/MartinShop.png",
         ],
     },
+
 	{
       "id": "Ledger",
         "inventory": [
@@ -2195,6 +2209,11 @@
           },
 		   {
               "name":"Oak Resin",
+              "type":"Object",
+              "price":3500
+          },
+		  {
+              "name":"Mahogany Seed",
               "type":"Object",
               "price":4000
           },

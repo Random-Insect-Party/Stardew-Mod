@@ -165,6 +165,13 @@ You shouldn't change this file unless you know what you're doing.
             },
             "Output": 245, // sugar
             "MaxOutput": 3
+        },
+        {
+            "BuildingKey": "Mill",
+            "Ingredients": {
+                "271": 1 // unmilled rice
+            },
+            "Output": 423 // rice
         }
     ],
 
@@ -234,7 +241,7 @@ You shouldn't change this file unless you know what you're doing.
                     "Ingredients": [
                         {
                             "PossibleIds": [ 881 ], // bone fragment
-                            "Count": 5 
+                            "Count": 5
                         }
                     ],
                     "PossibleOutputs": [
@@ -950,7 +957,7 @@ You shouldn't change this file unless you know what you're doing.
     ],
 
     /*********
-    ** Added fish spawn rules
+    ** Fishing metadata
     *********/
     /*
        Implementation notes:
@@ -1131,6 +1138,12 @@ You shouldn't change this file unless you know what you're doing.
             ]
         }
     },
+
+    "IgnoreFishingLocations": [
+        "Temp",
+        "fishingGame",
+        "IslandSecret"
+    ], 
 
     /*********
     ** Corrects metadata for game objects (including inventory items, terrain features, crops, trees, and other map objects).

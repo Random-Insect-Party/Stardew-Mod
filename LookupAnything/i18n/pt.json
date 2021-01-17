@@ -192,6 +192,17 @@
     "location.undergroundMine.level": "Mina nível {{level}}",
     "location.witchSwamp": "Pântano da bruxa",
     "location.woods": "Bosque Secreto",
+
+    "location.caldera": "Ginger Island caldera", // TODO
+    "location.islandEast": "Ginger Island east", // TODO
+    "location.islandNorth": "Ginger Island north", // TODO
+    "location.islandSouth": "Ginger Island south", // TODO
+    "location.islandSouthEast": "Ginger Island southeast", // TODO
+    "location.islandSouthEastCave": "Ginger Island southeast cave", // TODO
+    "location.islandWest": "Ginger Island west", // TODO
+    "location.islandWest.fish-area-1": "Ginger Island west (ocean)", // TODO
+    "location.islandWest.fish-area-2": "Ginger Island west (pond)", // TODO
+
     "location.unknown-fish-area": "{{locationName}} (área de pesca {{id}})",
 
 
@@ -592,7 +603,7 @@
 
 
     /*********
-    ** Tile lookups > Fern Islands mermaid puzzle
+    ** Puzzles > Fern Islands mermaid puzzle
     *********/
     // labels
     // TODO
@@ -621,6 +632,7 @@
     *********/
     // labels
     "tile.description": "Um bloque posicionado no mapa. Isto está aparecendo pois você habilitou nas configurações.",
+    "tile.game-location": "Location", // TODO
     "tile.map-name": "Nome do mapa",
     "tile.tile": "Bloco",
     "tile.tile-index": "{{layerName}}: Indice do bloco",

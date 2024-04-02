@@ -1,0 +1,22 @@
+﻿{
+  "Name": "MultiSave for 1.6",
+  "Author": "aedenthorn & GrimatGaming",
+  "Version": "0.2.1",
+  "Description": "MultiSave for 1.6",
+  "UniqueID": "GrimatGaming.MultiSave",
+  "EntryDll": "MultiSave.dll",
+  "MinimumApiVersion": "4.0.0",
+  "ModUpdater": {
+    "Repository": "StardewValleyMods",
+    "User": "GrimatGaming",
+    "Directory": "_releases",
+    "ModFolder": "MultiSave"
+  },
+  "UpdateKeys": [],
+  "Dependencies": [
+    {
+      "UniqueID": "Platonymous.ModUpdater",
+      "IsRequired": false
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-{
+﻿{
     /*********
     ** Generic translations
     *********/
@@ -84,83 +84,13 @@
     "data.npc.pet.description": "Dein treues Haustier.",
     "data.npc.horse.description": "Dein treues Ross.",
     "data.npc.junimo.description": "Ein Waldgeist aus der Geisterwelt. Es ist nur wenig über sie bekannt.",
-    "data.npc.trashbear.description": "Ein freundlicher Geist, der Müll beseitigt.",
+    "data.npc.trash-bear.description": "Ein freundlicher Geist, der Müll beseitigt.",
 
     // item types
-    "data.type.debris": "Verwilderung",
-    "data.type.stone": "Stein",
     "data.type.container": "Behältniss",
 
-    // farm items
+    // override item text
     "data.item.egg-incubator.description": "Brütet Eier zu Küken und Entchen aus.",
-    "data.item.broken-branch.name": "Zerbrochener Ast",
-    "data.item.broken-branch.description": "Ein Zerbrochener Ast. Zerschlage ihn mit deiner Axt um Holz zu bekommen.",
-    "data.item.stone.name": "Stein",
-    "data.item.stone.description": "Ein unscheinbarer grauer Stein. Zerbreche ihn um Steine zu bekommen.",
-    "data.item.geode.name": "Geodenader",
-    "data.item.geode.description": "Baue sie ab, um eine Geode zu bekommen.",
-    "data.item.frozen-geode.name": "Gefrorene Geodenader",
-    "data.item.frozen-geode.description": "Baue sie ab, um eine gefrorene Geode zu bekommen.",
-    "data.item.magma-geode.name": "Magmageodenader",
-    "data.item.magma-geode.description": "Baue sie ab, um eine Magma-Geode zu bekommen.",
-
-    // weeds & crystals
-    "data.item.weed.name": "Gras",
-    "data.item.weed.description": "Unscheinbares Gras. Kann gemischte Samen oder Fasern enthalten.",
-    "data.item.fertile-weed.name": "Fruchtbares Gras",
-    "data.item.fertile-weed.description": "Lässt garantiert wilde Samen fallen.",
-    "data.item.ice-crystal.name": "Eiskristall",
-    "data.item.ice-crystal.description": "Ein unscheinbarer Eiskristall. Sehr geringe Chance verfeinerten Quartz zu enthalten.",
-
-    // mine gems
-    "data.item.amethyst-node.name": "Amethystader",
-    "data.item.amethyst-node.description": "Baue sie ab, um Amethysten zu bekommen.",
-    "data.item.aquamarine-node.name": "Aquamarinader",
-    "data.item.aquamarine-node.description": "Baue sie ab, um Aquamarine zu bekommen.",
-    "data.item.diamond-node.name": "Diamantader",
-    "data.item.diamond-node.description": "Baue sie ab, um Diamanten zu bekommen.",
-    "data.item.emerald-node.name": "Smaragdader",
-    "data.item.emerald-node.description": "Baue sie ab, um Smaragde zu bekommen.",
-    "data.item.gem-node.name": "Edelsteinader",
-    "data.item.gem-node.description": "Baue sie ab, um Smaragde, Aquamarine, Rubine, Amethysten, Topase, Jade, oder Diamanten zu bekommen.",
-    "data.item.jade-node.name": "Jadeader",
-    "data.item.jade-node.description": "Baue sie ab, um Jade zu bekommen.",
-    "data.item.mystic-stone.name": "Mystischer Stein",
-    "data.item.mystic-stone.description": "Baue ihn ab, um seltene Erze oder Juwelen zu bekommen. Beinhaltet prismatische Scherbe.",
-    "data.item.prismatic-node.name": "Prismatische Ader",
-    "data.item.prismatic-node.description": "Baue sie ab,um prismatische Scherben zu bekommen.",
-    "data.item.ruby-node.name": "Rubinader",
-    "data.item.ruby-node.description": "Baue sie ab, um Rubine zu bekommen.",
-    "data.item.topaz-node.name": "Topasader",
-    "data.item.topaz-node.description": "Baue sie ab, um Topase zu bekommen.",
-
-    // mine ores
-    "data.item.cinder-shard-node.name": "Schlackenscherbenader",
-    "data.item.cinder-shard-node.description": "Baue sie ab um eine Schlackenscherbe zu bekommen.",
-    "data.item.copper-node.name": "Kupferader",
-    "data.item.copper-node.description": "Baue sie ab, um Kupfererz zu bekommen.",
-    "data.item.gold-node.name": "Goldader",
-    "data.item.gold-node.description": "Baue sie ab, um Golderz zu bekommen.",
-    "data.item.iridium-node.name": "Iridiumader",
-    "data.item.iridium-node.description": "Baue sie ab, um Iridiumerz zu bekommen.",
-    "data.item.iron-node.name": "Eisenader",
-    "data.item.iron-node.description": "Baue sie ab, um Eisenerz zu bekommen.",
-    "data.item.omni-geode-node.name": "Omni-Geoden-Ader",
-    "data.item.omni-geode-node.description": "Baue sie ab um eine Omni-Geode zu bekommen.",
-
-    // mine stones
-    "data.item.colored-stone.name": "Farbiger Stein",
-    "data.item.colored-stone.description": "Ein unscheinbarer Stein. Kann Stein, Erz oder Geoden enthalten.",
-    "data.item.mine-stone.name": "Stein",
-    "data.item.mine-stone.description": "Bau sie ab um Stein oder mit Glück Kohle zu bekommen.",
-
-    // other stones
-    "data.item.clay-stone.name": "Lehmstein",
-    "data.item.clay-stone.description": "Zerbrich ihn ab um Lehm zu bekommen.",
-    "data.item.fossil-stone.name": "Fossilien stein",
-    "data.item.fossil-stone.description": "Zerbrich ihn um Fossilien oder Knochen zu bekommen.",
-
-    // mine containers
     "data.item.barrel.name": "Fass",
     "data.item.barrel.description": "Zerschlage es um verschiedenes Gut zu erhalten.",
     "data.item.box.name": "Kiste",
@@ -252,8 +182,7 @@
     "building.output-processing": "Ausgabe in Arbeit",
     "building.output-ready": "Ausgabe fertig",
     "building.slimes.summary": "{{count}} von bis zu {{max}} Schleimen",
-    "building.stored-hay.summary-one-silo": "{{hayCount}} Heu (max Kapazität: {{maxHay}})",
-    "building.stored-hay.summary-multiple-silos": "{{hayCount}} Heu in {{siloCount}} Silos (max Kapazität: {{maxHay}})",
+    "building.stored-hay.summary": "{{hayCount}} of {{maxHayInLocation}} hay in this location (max capacity in this building: {{maxHayInBuilding}})", // TODO
     "building.upgrades.barn.0": "bis zu 4 Tiere, fügt Kühe hinzu",
     "building.upgrades.barn.1": "bis zu 8 Tiere, fügt Schwangerschaft und Ziegen hinzu",
     "building.upgrades.barn.2": "bis zu 12 Tiere, fügt automatische Fütterung, Schweine und Schafe hinzu",
@@ -353,6 +282,7 @@
     ** Item > generic lookups
     *********/
     // labels
+    "item.custom-item": "Custom item", // TODO
     "item.contents": "Inhalt",
     "item.loves-this": "Liebt das",
     "item.likes-this": "Mag das",
@@ -371,6 +301,7 @@
     "item.produces-dye": "Erzeugt Farbe",
 
     // values
+    "item.custom-item.summary": "added by {{modName}}", // TODO
     "item.contents.placed": "{{name}} platziert",
     "item.contents.ready": "{{name}} bereit",
     "item.contents.partial": "{{name}} in {{time}}",
@@ -382,6 +313,7 @@
     "item.needed-for.full-collection": "\"Eine vollständige Sammlung\" Errungenschaft (Spende eines dem Museum)",
     "item.needed-for.gourmet-chef": "\"Gourmetkoch\" Errungenschaft (koche {{recipes}})",
     "item.needed-for.craft-master": "\"Handwerksmeister\" Errungenschaft (stelle {{recipes}} her)",
+    "item.needed-for.quests": "aktuelle Aufgaben ({{quests}})",
     "item.sells-to.shipping-box": "Versandkiste",
     "item.recipes-for-ingredient.entry": "{{name}} (braucht {{count}})",
     "item.recipes-for-machine.multiple-items": "{{name}} x{{count}}",
@@ -444,6 +376,28 @@
 
 
     /*********
+    ** Item > melee weapon lookups
+    *********/
+    // labels
+    "item.melee-weapon.accuracy": "Genauigkeit",
+    "item.melee-weapon.critical-chance": "Kritische Trefferchance",
+    "item.melee-weapon.critical-damage": "Kritischer Schaden",
+    "item.melee-weapon.damage": "Schaden",
+    "item.melee-weapon.defense": "Verteidigung",
+    "item.melee-weapon.knockback": "Rückstoß",
+    "item.melee-weapon.reach": "Reichweite",
+    "item.melee-weapon.speed": "Angriffsgeschwindigkeit",
+
+    // values
+    "item.melee-weapon.critical-damage.label": "{{multiplier}}-facher normaler Schaden (vor Spielerboni)",
+    "item.melee-weapon.defense.label": "{{amount}} beim Tragen",
+    "item.melee-weapon.knockback.label": "{{amount}} ({{multiplier}}-fache normale Distanz)",
+    "item.melee-weapon.reach.label": "{{amount}} Pixel",
+    "item.melee-weapon.speed.shown-vs-actual": "angezeigt: {{shownSpeed}}{{lineBreak}}tatsächlich: {{actualSpeed}}",
+    "item.melee-weapon.speed.summary": "{{speed}} ({{milliseconds}} Millisekunden pro Schwingphase, vor Spielergeschwindigkeitsboni)",
+
+
+    /*********
     ** Item > movie lookups
     *********/
     // labels
@@ -452,6 +406,7 @@
     "item.movie-ticket.loves-movie": "Liebt Film",
     "item.movie-ticket.likes-movie": "Mag Film",
     "item.movie-ticket.dislikes-movie": "Mag Film nicht",
+    "item.movie-ticket.rejects-movie": "Möchte den Film nicht sehen",
 
     // values
     "item.movie-snack-preference.love": "{{name}} liebt das",
@@ -510,7 +465,7 @@
     "npc.friendship.need-bouquet": "Blumenstrauß für nächstes erforderlich",
     "npc.friendship.need-points": "nächstes in {{count}} Punkten",
     "npc.undiscovered-gift-taste": "{{count}} unaufgedeckte Gegenstände",
-    "npc.undiscovered-gift-taste-appended": " und {{count}} unaufgedeckte Gegenstände",
+    "npc.unowned-gift-taste": "{{count}} nicht bessesene Gegenstände",
 
 
     /*********
@@ -609,7 +564,7 @@
     *********/
     // labels
     "puzzle.island-shrine.title": "Edelsteinvogel Rätsel",
-    "puzzle.island-shrine.description": "Lege den Edelstein auf den Sockel der vom Edelsteinvogel am passenden Ort bei Regen gelegt wurde. Die Edelsteine sind für jeden Speicherstand zufällig.",
+    "puzzle.island-shrine.solution": "Lege den Edelstein auf den Sockel der vom Edelsteinvogel am passenden Ort bei Regen gelegt wurde. Die Edelsteine sind für jeden Speicherstand zufällig.",
 
     // values
     "puzzle.island-shrine.solution.east": "Osten: {{item}}",
@@ -650,7 +605,7 @@
     // labels
     "tree.stage": "Wachstumsstadium",
     "tree.next-growth": "Nächstes Wachstum",
-    "tree.has-seed": "Trägt Samen",
+    "tree.seed": "Trägt Samen",
     "tree.is-fertilized": "Ist gedüngt",
 
     // values
@@ -663,9 +618,12 @@
     "tree.name.unknown": "unbekannter Baum",
     "tree.stage.done": "Voll ausgewachsen",
     "tree.stage.partial": "{{stageName}} ({{step}} von {{max}})",
-    "tree.next-growth.winter": "Kann nicht im Winter außerhalb des Gewächshauses wachsen.",
+    "tree.next-growth.winter": "Kann nicht im Winter außerhalb des Gewächshauses wachsen, wenn es nicht gedüngt wird.",
     "tree.next-growth.adjacent-trees": "Kann nicht wachsen, weil andere Bäume zu nah sind.",
     "tree.next-growth.chance": "{{chance}}% Chance in das nächste Stadium zu kommen. Im nächstem Stadium wird es ein {{stage}} sein.",
+    "tree.seed.not-ready": "Not ready", // TODO
+    "tree.seed.probability-daily": "{{chance}}% chance of {{itemName}} each day.", // TODO
+    "tree.seed.probability-on-chop": "{{chance}}% chance of dropping {{itemName}} when chopped down.", // TODO
 
     // growth stages
     "tree.stages.seed": "Samen",
@@ -673,5 +631,65 @@
     "tree.stages.sapling": "Setzling",
     "tree.stages.bush": "Busch",
     "tree.stages.smallTree": "Kleiner Baum",
-    "tree.stages.tree": "Baum"
+    "tree.stages.tree": "Baum",
+
+
+    /*********
+    ** Generic Mod Config Menu UI
+    *********/
+    // main options
+    "config.title.main-options": "Haupt Optionen",
+    "config.progression-mode.name": "Fortschritts Modus",
+    "config.progression-mode.desc": "Ob bestimmte Inhalte (z. B. Geschenkvorlieben und Rätsellösungen) versteckt werden sollen, bis man sie im Spiel entdeckt hat.",
+    "config.force-full-screen.name": "Erzwinge Vollbild",
+    "config.force-full-screen.desc": "Legt fest, ob das Menü immer als Vollbild angezeigt werden soll, anstatt in der Mitte des Fensters. Dies ist vor allem bei der Anzeige von Data Mining Feldern nützlich.",
+
+    // gift tastes
+    "config.title.gift-tastes": "Geschenke-Geschmäcker",
+    "config.show-gift-tastes.loved.name": "Zeige beliebte Geschenke",
+    "config.show-gift-tastes.loved.desc": "Ob beliebte Geschenke in NPC- und Gegenstandssuchen angezeigt werden sollen.",
+    "config.show-gift-tastes.liked.name": "Zeige gemochte Geschenke",
+    "config.show-gift-tastes.liked.desc": "Ob gemochte Geschenke in der NPC- und Gegenstandssuche angezeigt werden sollen.",
+    "config.show-gift-tastes.neutral.name": "Zeige neutrale Geschenke",
+    "config.show-gift-tastes.neutral.desc": "Ob neutrale Geschenke in der NPC- und Gegenstandssuche angezeigt werden sollen.",
+    "config.show-gift-tastes.disliked.name": "Zeige unbeliebte Geschenke",
+    "config.show-gift-tastes.disliked.desc": "Ob unbeliebte Geschenke in der NPC- und Gegenstandssuche angezeigt werden sollen.",
+    "config.show-gift-tastes.hated.name": "Zeige gehasste Geschenke",
+    "config.show-gift-tastes.hated.desc": "Ob gehasste Geschenke in der NPC- und Gegenstandssuche angezeigt werden sollen.",
+
+    "config.show-unowned-gifts.name": "Nicht besessene Geschenkvorlieben anzeigen",
+    "config.show-unowned-gifts.desc": "Ob die Geschenkvorlieben für Gegenstände angezeigt werden sollen, die der Spieler nirgendwo in der Welt besitzt.",
+
+    "config.highlight-unrevealed-gift-tastes.name": "Hebe unentdeckte Geschenkvorlieben hervor",
+    "config.highlight-unrevealed-gift-tastes.desc": "Hervorhebung von Gegenstandsgeschenken, die im NSC-Profil noch nicht offenbart wurden. Wenn diese Option aktiviert ist, werden nicht enthüllte Geschenkvorlieben fett dargestellt.",
+
+    // advanced options
+    "config.title.advanced-options": "Erweiterte Optionen",
+    "config.tile-lookups.name": "Nachschlagen von Kacheln",
+    "config.tile-lookups.desc": "Ob Kartenkacheln als Nachschlageziele einbezogen werden sollen.",
+    "config.data-mining-fields.name": "Data Mining Felder anzeigen",
+    "config.data-mining-fields.desc": "Ob Rohdaten angezeigt werden sollen, die für Data Miner nützlich sind (als separate Felder am Ende der Suchergebnisse). Dies ist eine erweiterte Funktion, die nicht für die meisten Spieler gedacht ist.",
+    "config.target-redirection.name": "Ziel Umleitung",
+    "config.target-redirection.desc": "In manchen Fällen legt das Spiel eine temporäre Entität an, um eine andere zu repräsentieren. Zum Beispiel ist Abigail in den Minen in Wirklichkeit ein temporärer NSC mit dem Namen 'AbigailMine', so dass die Suche nach ihr dort nicht Abigails wirkliche Informationen zeigen wird. Wenn diese Option aktiviert ist, sucht Lookup Anything stattdessen nach der ursprünglichen Abigail.",
+    "config.scroll-amount.name": "Scroll Anzahl",
+    "config.scroll-amount.desc": "Die Anzahl an Pixeln um welche der Inhalt verschoben wird bei jedem hoch/runter scrollen.",
+
+    // controls section
+    "config.title.controls": "Steuerung",
+    "config.hide-on-key-up.name": "Verstecke beim Loslassen der Taste",
+    "config.hide-on-key-up.desc": "Ob die Lookup-Oberfläche ausgeblendet werden soll, wenn Sie die Lookup-Taste loslassen.",
+    "config.toggle-lookup.name": "Lookup umschalten",
+    "config.toggle-lookup.desc": "Die Tasten, die die Lookup-Oberfläche für etwas unter dem Cursor umschalten.",
+    "config.toggle-search.name": "Suche umschalten",
+    "config.toggle-search.desc": "Die Tasten, mit denen die Suchoberfläche umgeschaltet wird.",
+    "config.scroll-up.name": "Hoch scrollen",
+    "config.scroll-up.desc": "Die Tasten, die lange Inhalte um einige Zeilen nach oben scrollen.",
+    "config.scroll-down.name": "Runter scrollen",
+    "config.scroll-down.desc": "Die Tasten, die lange Inhalte um einige Zeilen nach unten scrollen.",
+    "config.page-up.name": "Seite hoch",
+    "config.page-up.desc": "Die Tasten, die lange Inhalte um eine ganze Seite nach oben blättern.",
+    "config.page-down.name": "Seite runter",
+    "config.page-down.desc": "Die Tasten, die lange Inhalte um eine ganze Seite nach unten blättern.",
+    "config.toggle-debug.name": "Debug umschalten",
+    "config.toggle-debug.desc": "Die Tasten, mit denen die Anzeige der Debug-Informationen umgeschaltet wird."
 }

@@ -1,4 +1,4 @@
-{
+﻿{
     // accessible
     "accessible.name": "Accessible",
     "accessible.clear": "Clear",
@@ -35,7 +35,7 @@
     "crop-harvest.name": "Crops: Ready to Harvest",
     "crop-harvest.ready": "Ready",
     "crop-harvest.not-ready": "Not Ready",
-    "crop-harvest.not-enough-time": "Not Enough Time",
+    "crop-harvest.not-enough-time-or-dead": "Not Enough Time (or Dead)",
 
     // crops: watered
     "crop-water.name": "Crops: Watered",
@@ -52,6 +52,7 @@
     "crop-fertilizer.fertilizer": "Fertilizer",
     "crop-fertilizer.retaining-soil": "Retaining Soil",
     "crop-fertilizer.speed-gro": "Speed-Gro",
+    "crop-fertilizer.multiple": "Multiple Fertilizer Types",
 
     // machine processing
     "machines.name": "Machine Processing",

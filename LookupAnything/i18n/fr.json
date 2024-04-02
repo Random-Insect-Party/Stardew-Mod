@@ -1,4 +1,4 @@
-{
+﻿{
     /*********
     ** Generic translations
     *********/
@@ -8,7 +8,7 @@
     "generic.yesterday": "hier",
 
     // generic values
-    "generic.unknown": "unknown", // TODO
+    "generic.unknown": "inconnu",
 
     // generic field values
     "generic.percent": "{{percent}}%",
@@ -31,7 +31,7 @@
     // types
     "type.building": "Bâtiment",
     "type.bush": "arbuste",
-    "type.fruit-tree": "Arbre fruitié",
+    "type.fruit-tree": "Arbre fruitier",
     "type.map-tile": "Case de carte",
     "type.monster": "Monstre",
     "type.player": "Joueur",
@@ -49,7 +49,7 @@
     "friendship-status.friendly": "Ami",
     "friendship-status.dating": "Romance",
     "friendship-status.engaged": "Engagé",
-    "friendship-status.married": "Marrié",
+    "friendship-status.married": "Marié",
     "friendship-status.divorced": "Divorcé",
     "friendship-status.kicked-out": "Rejeté",
 
@@ -83,82 +83,13 @@
     "data.npc.pet.description": "Vôtre loyal animal.",
     "data.npc.horse.description": "Vôtre loyal destrier.",
     "data.npc.junimo.description": "Un esprit de la forêt provenant du monde des esprits. On en sait très peu sur eux.",
-    "data.npc.trashbear.description": "Un esprit amical qui nettoie les déchets.",
+    "data.npc.trash-bear.description": "Un esprit amical qui nettoie les déchets.",
 
     // item types
-    "data.type.debris": "Débris",
-    "data.type.stone": "Pierre",
     "data.type.container": "Contenant",
 
-    // farm items
+    // override item text
     "data.item.egg-incubator.description": "Fait éclore les oeufs en des poussins et canetons.",
-    "data.item.broken-branch.name": "Branche cassée",
-    "data.item.broken-branch.description": "Une branche cassée. A couper avec une hache pour obtenir du bois.",
-    "data.item.stone.name": "Pierre",
-    "data.item.stone.description": "Une pierre grise. A casser avec une pioche pour obtenir de la pierre.",
-    "data.item.geode.name": "Filon de géode",
-    "data.item.geode.description": "A casser pour obtenir des géodes.",
-    "data.item.frozen-geode.name": "Filon de géode gelée",
-    "data.item.frozen-geode.description": "A casser pour obtenir des géodes gelées.",
-    "data.item.magma-geode.name": "Filon de géode de lave",
-    "data.item.magma-geode.description": "A casser pour obtenir des géodes de lave.",
-
-    // weeds & crystals
-    "data.item.weed.name": "Herbe",
-    "data.item.weed.description": "Une herbe. Peut donner des fibres ou des graines..",
-    "data.item.fertile-weed.name": "Herbe fertile",
-    "data.item.fertile-weed.description": "Donne des graines.",
-    "data.item.ice-crystal.name": "Cristal de glace",
-    "data.item.ice-crystal.description": "Un cristal de glace. A une petite chance de contenir du quartz.",
-
-    // mine gems
-    "data.item.amethyst-node.name": "Filon d'améthyste",
-    "data.item.amethyst-node.description": "A casser pour obtenir de l'améthyste.",
-    "data.item.aquamarine-node.name": "Filon d'aigue-marine",
-    "data.item.aquamarine-node.description": "A casser pour obtenir de l'aigue-marine.",
-    "data.item.diamond-node.name": "Filon de diamant",
-    "data.item.diamond-node.description": "A casser pour obtenir du diamant.",
-    "data.item.emerald-node.name": "Filon d'émeraude",
-    "data.item.emerald-node.description": "A casser pour obtenir de l'émeraude.",
-    "data.item.gem-node.name": "Filon de gemme",
-    "data.item.gem-node.description": "A casser pour obtenir de l'émeraude, de l'aigue-marine, du rubis, de l'améthyste, de la topaze, de la jade, ou du diamant.",
-    "data.item.jade-node.name": "Filon de jade",
-    "data.item.jade-node.description": "A casser pour obtenir de la jade.",
-    "data.item.mystic-stone.name": "Pierre mystique",
-    "data.item.mystic-stone.description": "A casser pour obtenir des gemmes et minerais rares, dont du tesson prismatique.",
-    "data.item.prismatic-node.name": "Filon prismatique",
-    "data.item.prismatic-node.description": "A casser pour obtenir du tesson prismatique.",
-    "data.item.ruby-node.name": "Filon de rubis",
-    "data.item.ruby-node.description": "A casser pour obtenir du rubis.",
-    "data.item.topaz-node.name": "Filon de topaze",
-    "data.item.topaz-node.description": "A casser pour obtenir de la topaze.",
-
-    // mine ores
-    "data.item.cinder-shard-node.name": "Cinder Shard Node", // TODO
-    "data.item.cinder-shard-node.description": "Break apart to obtain cinder shards.", // TODO
-    "data.item.copper-node.name": "Filon de cuivre",
-    "data.item.copper-node.description": "A casser pour obtenir du minerais de cuivre.",
-    "data.item.gold-node.name": "Filon d'or",
-    "data.item.gold-node.description": "A casser pour obtenir du minerais d'or.",
-    "data.item.iridium-node.name": "Filon d'iridium",
-    "data.item.iridium-node.description": "A casser pour obtenir du minerais d'iridium.",
-    "data.item.iron-node.name": "Filon de fer",
-    "data.item.iron-node.description": "A casser pour obtenir du minerais du fer.",
-    "data.item.omni-geode-node.name": "Filon de Géode-omni",
-    "data.item.omni-geode-node.description": "A casser pour obtenir des géodes-omni.",
-
-    // mine stones
-    "data.item.colored-stone.name": "Pierre colorée",
-    "data.item.colored-stone.description": "Une pierre. Peut contenir de la pierre, du minerais ou des géodes.",
-    "data.item.mine-stone.name": "Pierre",
-    "data.item.mine-stone.description": "A casser pour obtenir de la pierre avec une chance de charbon.",
-
-    // other stones
-    // TODO
-    "data.item.clay-stone.name": "Veine d'argile",
-    "data.item.clay-stone.description": "A casser pour obtenir de l'argile.",
-    "data.item.fossil-stone.name": "Pierre fossile",
-    "data.item.fossil-stone.description": "A casser pour obtenir des fossiles et des os.",
 
     // mine containers
     "data.item.barrel.name": "Tonneau",
@@ -192,15 +123,15 @@
     "location.witchSwamp": "marais de la sorcière",
     "location.woods": "bois secret",
 
-    "location.caldera": "Ginger Island caldera", // TODO
-    "location.islandEast": "Ginger Island east", // TODO
-    "location.islandNorth": "Ginger Island north", // TODO
-    "location.islandSouth": "Ginger Island south", // TODO
-    "location.islandSouthEast": "Ginger Island southeast", // TODO
-    "location.islandSouthEastCave": "Ginger Island southeast cave", // TODO
-    "location.islandWest": "Ginger Island west", // TODO
-    "location.islandWest.fish-area-1": "Ginger Island west (ocean)", // TODO
-    "location.islandWest.fish-area-2": "Ginger Island west (pond)", // TODO
+    "location.caldera": "Île Gingembre - Caldeira",
+    "location.islandEast": "Île Gingembre - Est",
+    "location.islandNorth": "Île Gingembre - Nord",
+    "location.islandSouth": "Île Gingembre - Sud",
+    "location.islandSouthEast": "Île Gingembre - Sud Ouest",
+    "location.islandSouthEastCave": "Île Gingembre - Sud Ouest - Cave",
+    "location.islandWest": "Île Gingembre - Ouest",
+    "location.islandWest.fish-area-1": "Île Gingembre - Est (océan)",
+    "location.islandWest.fish-area-2": "Île Gingembre - Est (étang)",
 
     "location.unknown-fish-area": "{{locationName}} (secteur de pêche {{id}})",
 
@@ -252,8 +183,7 @@
     "building.output-processing": "Production en cours",
     "building.output-ready": "Production prête",
     "building.slimes.summary": "{{count}} sur {{max}} slimes",
-    "building.stored-hay.summary-one-silo": "{{hayCount}} foin (capacité: {{maxHay}})",
-    "building.stored-hay.summary-multiple-silos": "{{hayCount}} foin dans {{siloCount}} silos (capacité: {{maxHay}})",
+    "building.stored-hay.summary": "{{hayCount}} of {{maxHayInLocation}} hay in this location (max capacity in this building: {{maxHayInBuilding}})", // TODO
     "building.upgrades.barn.0": "jusqu'à 4 animaux, permet les vaches",
     "building.upgrades.barn.1": "jusqu'à 8 animaux, permet les grossesses et les chèvres",
     "building.upgrades.barn.2": "jusqu'à 12 animaux, ajoute le nourrissage automatique, permet les cochons et les moutons",
@@ -301,7 +231,7 @@
 
     // values
     "bush.growth.summary": "prêt le {{date}}",
-    "bush.schedule.berry": "20% de chance de baies de saumon du 15 au 18 printemps and mûres du 8 au 11 automne.",
+    "bush.schedule.berry": "20% de chance de baies de saumon du 15 au 18 printemps et de mûres du 8 au 11 automne.",
     "bush.schedule.tea": "Fais pousser des feuilles de thé à partie du 22 de chaque saison (sauf en hiver si hors de la serre).",
 
 
@@ -335,8 +265,8 @@
     // labels
     "crop.summary": "Culture",
     "crop.harvest": "Récolte",
-    "crop.fertilized": "Fertilized", // TODO
-    "crop.watered": "Watered", // TODO
+    "crop.fertilized": "Fertilisé",
+    "crop.watered": "Arrosé",
 
     // values
     "crop.summary.dead": "Cette culture est morte.",
@@ -353,6 +283,7 @@
     ** Item > generic lookups
     *********/
     // labels
+    "item.custom-item": "Custom item", // TODO
     "item.contents": "Contenu",
     "item.loves-this": "Adore ça",
     "item.likes-this": "Apprécie ça",
@@ -371,6 +302,7 @@
     "item.produces-dye": "Produit du colorant",
 
     // values
+    "item.custom-item.summary": "added by {{modName}}", // TODO
     "item.contents.placed": "{{name}} placé",
     "item.contents.ready": "{{name}} prêt",
     "item.contents.partial": "{{name}} in {{time}}",
@@ -382,6 +314,7 @@
     "item.needed-for.full-collection": "succès collection complète (1 à donner au musée)",
     "item.needed-for.gourmet-chef": "succès chef gourmet (cuisiner {{recipes}})",
     "item.needed-for.craft-master": "succès maître artisant (fabriquer {{recipes}})",
+    "item.needed-for.quests": "quêtes en cours ({{quests}})",
     "item.sells-to.shipping-box": "bac d'expédition",
     "item.recipes-for-ingredient.entry": "{{name}} (nécessite {{count}})",
     "item.recipes-for-machine.multiple-items": "{{name}} x {{count}}",
@@ -444,6 +377,28 @@
 
 
     /*********
+    ** Item > melee weapon lookups
+    *********/
+    // labels
+    "item.melee-weapon.accuracy": "Précision",
+    "item.melee-weapon.critical-chance": "Chance de critique",
+    "item.melee-weapon.critical-damage": "Dégâts critiques",
+    "item.melee-weapon.damage": "Dégâts",
+    "item.melee-weapon.defense": "Défense",
+    "item.melee-weapon.knockback": "Recul",
+    "item.melee-weapon.reach": "Portée",
+    "item.melee-weapon.speed": "Vitesse d'attaque",
+
+    // values
+    "item.melee-weapon.critical-damage.label": "{{multiplier}} fois les dégâts normaux (avant les bonus des joueurs)",
+    "item.melee-weapon.defense.label": "{{amount}} quand équipé",
+    "item.melee-weapon.knockback.label": "{{amount}} ({{multiplier}} fois distance normale)",
+    "item.melee-weapon.reach.label": "{{amount}} pixels",
+    "item.melee-weapon.speed.shown-vs-actual": "affiché: {{shownSpeed}}{{lineBreak}}actuel: {{actualSpeed}}",
+    "item.melee-weapon.speed.summary": "{{speed}} ({{milliseconds}} millisecondes par image de swing, avant les bonus de vitesse du joueur)",
+
+
+    /*********
     ** Item > movie lookups
     *********/
     // labels
@@ -452,6 +407,7 @@
     "item.movie-ticket.loves-movie": "Films aimés",
     "item.movie-ticket.likes-movie": "Films appréciés",
     "item.movie-ticket.dislikes-movie": "Films non appréciés",
+    "item.movie-ticket.rejects-movie": "Ne regarde pas le film",
 
     // values
     "item.movie-snack-preference.love": "{{name}} aime ça",
@@ -510,7 +466,7 @@
     "npc.friendship.need-bouquet": "besoin d'un bouquet",
     "npc.friendship.need-points": "manque {{count}} pts",
     "npc.undiscovered-gift-taste": "{{count}} goût(s) non révelé(s)",
-    "npc.undiscovered-gift-taste-appended": ", et {{count}} goût(s) non révelé(s)",
+    "npc.unowned-gift-taste": "{{count}} unowned items", // TODO
 
 
     /*********
@@ -525,7 +481,7 @@
     "npc.child.age.newborn": "nouveau né",
     "npc.child.age.baby": "bébé",
     "npc.child.age.crawler": "marmot",
-    "npc.child.age.toddler": "bambim",
+    "npc.child.age.toddler": "bambin",
 
 
     /*********
@@ -610,9 +566,9 @@
     *********/
     // labels
     "puzzle.island-shrine.title": "Puzzle du sanctuaire",
-    "puzzle.island-shrine.description": "Pour chaque piédestal, placez l'objet déposé par les oiseaux gemmes à l'emplacement correspondant de l'île lorsqu'il pleut. Les objects sont randomisés pour chaque sauvegarde.",
 
     // values
+    "puzzle.island-shrine.solution": "Pour chaque piédestal, placez l'objet déposé par les oiseaux gemmes à l'emplacement correspondant de l'île lorsqu'il pleut. Les objects sont randomisés pour chaque sauvegarde.",
     "puzzle.island-shrine.solution.east": "Est: {{item}}",
     "puzzle.island-shrine.solution.north": "Nord: {{item}}",
     "puzzle.island-shrine.solution.south": "Sud: {{item}}",
@@ -624,7 +580,7 @@
     *********/
     // labels
     "tile.description": "Une case sur la carte. Ceci est affiché car vous avez activé la recherche des cases dans les paramètres.",
-    "tile.game-location": "Location", // TODO
+    "tile.game-location": "Zone",
     "tile.map-name": "Nom de la carte",
     "tile.tile": "Case",
     "tile.tile-index": "{{layerName}}: index de la case",
@@ -651,12 +607,12 @@
     // labels
     "tree.stage": "Niveau de croissance",
     "tree.next-growth": "Prochaine croissance",
-    "tree.has-seed": "A des graines",
+    "tree.seed": "A des graines",
     "tree.is-fertilized": "Est fertilisé",
 
     // values
     "tree.name.big-mushroom": "Grand champignon",
-    "tree.name.mahogany": "Mahogany Tree", // TODO
+    "tree.name.mahogany": "Acajou",
     "tree.name.maple": "Erable",
     "tree.name.oak": "Chêne",
     "tree.name.palm": "Palmier",
@@ -664,9 +620,12 @@
     "tree.name.unknown": "Arbre inconnu",
     "tree.stage.done": "Taille adulte",
     "tree.stage.partial": "{{stageName}} ({{step}} sur {{max}})",
-    "tree.next-growth.winter": "ne peut pousser en hiver en dehors de la serre",
+    "tree.next-growth.winter": "ne peut pousser en dehors de la serre en hiver à moins d'être fertilisé",
     "tree.next-growth.adjacent-trees": "ne peut pousser car d'autres arbres sont trop près",
     "tree.next-growth.chance": "{{chance}}% de chance de grandir en {{stage}} demain",
+    "tree.seed.not-ready": "Pas prêt",
+    "tree.seed.probability-daily": "{{chance}} % de chances d'obtenir {{itemName}} chaque jour.",
+    "tree.seed.probability-on-chop": "{{chance}} % de chances d'obtenir {{itemName}} une fois abattu.",
 
     // growth stages
     "tree.stages.seed": "graine",
@@ -674,5 +633,65 @@
     "tree.stages.sapling": "pousse",
     "tree.stages.bush": "arbuste",
     "tree.stages.smallTree": "petit arbre",
-    "tree.stages.tree": "arbre"
+    "tree.stages.tree": "arbre",
+
+
+    /*********
+    ** Generic Mod Config Menu UI
+    *********/
+    // main options
+    "config.title.main-options": "Options principales",
+    "config.progression-mode.name": "Mode de progression",
+    "config.progression-mode.desc": "Possibilité de cacher certains contenus (par exemple, les goûts des cadeaux et les solutions des énigmes) jusqu'à ce que vous les découvriez dans le jeu.",
+    "config.force-full-screen.name": "Forcer le plein écran",
+    "config.force-full-screen.desc": "Si le menu doit toujours être en plein écran, au lieu d'être centré dans la fenêtre. Ceci est principalement utile lors de l'affichage des champs d'exploration de données.",
+
+    // gift tastes
+    "config.title.gift-tastes": "Goûts en matière de cadeaux",
+    "config.show-gift-tastes.loved.name": "Montrer les cadeaux adorés",
+    "config.show-gift-tastes.loved.desc": "Possibilité d'afficher les cadeaux adorés dans les recherches de PNJ et d'objets.",
+    "config.show-gift-tastes.liked.name": "Afficher les cadeaux aimés",
+    "config.show-gift-tastes.liked.desc": "Possibilité d'afficher les cadeaux aimés dans les recherches de PNJ et d'objets.",
+    "config.show-gift-tastes.neutral.name": "Montrer les cadeaux neutres",
+    "config.show-gift-tastes.neutral.desc": "Possibilité d'afficher les cadeaux neutres dans les recherches de PNJ et d'objets.",
+    "config.show-gift-tastes.disliked.name": "Montrer les cadeaux non aimés",
+    "config.show-gift-tastes.disliked.desc": "Possibilité d'afficher les cadeaux non aimés dans les recherches de PNJ et d'objets",
+    "config.show-gift-tastes.hated.name": "Montrer les cadeaux détestés",
+    "config.show-gift-tastes.hated.desc": "Possibilité d'afficher les cadeaux détestés dans les recherches de PNJ et d'objets",
+
+    "config.show-unowned-gifts.name": "Afficher les cadeaux non possédés",
+    "config.show-unowned-gifts.desc": "Possibilité d'afficher les goûts en matière de cadeaux pour des objets que le joueur ne possède pas dans le monde.",
+
+    "config.highlight-unrevealed-gift-tastes.name": "Mettre en évidence les goûts des cadeaux non révélés",
+    "config.highlight-unrevealed-gift-tastes.desc": "Si vous souhaitez mettre en évidence les goûts en matière de cadeaux qui n'ont pas été révélés dans le profil du PNJ. Lorsque cette option est activée, les goûts des cadeaux qui n'ont pas été révélés seront en gras.",
+
+    // advanced options
+    "config.title.advanced-options": "Options avancées",
+    "config.tile-lookups.name": "Recherche de tuiles",
+    "config.tile-lookups.desc": "Si l'on veut inclure les tuiles de la carte comme cibles de recherche.",
+    "config.data-mining-fields.name": "Afficher les champs d'exploration de données",
+    "config.data-mining-fields.desc": "Afficher ou non les données brutes utiles aux chercheurs de données (sous forme de champs séparés au bas des résultats de la recherche). Il s'agit d'une fonctionnalité avancée qui n'est pas destinée à la plupart des joueurs.",
+    "config.target-redirection.name": "Redirection de la cible",
+    "config.target-redirection.desc": "Dans certains cas, le jeu crée une entité temporaire pour en représenter une autre. Par exemple, Abigail dans les mines est en fait un PNJ temporaire avec le nom 'AbigailMine', donc la rechercher là-bas ne montrera pas les vraies informations d'Abigail. Si cette option est activée, Lookup Anything recherchera la vraie Abigail à la place.",
+    "config.scroll-amount.name": "Quantité de défilement",
+    "config.scroll-amount.desc": "Le nombre de pixels pour déplacer le contenu à chaque défilement vers le haut/bas.",
+
+    // controls section
+    "config.title.controls": "Contrôles",
+    "config.hide-on-key-up.name": "Masquer sur la touche haut",
+    "config.hide-on-key-up.desc": "Indique si l'interface utilisateur doit être masquée lorsque vous relâchez la touche de consultation.",
+    "config.toggle-lookup.name": "Basculer l'affichage",
+    "config.toggle-lookup.desc": "Les touches qui permettent de basculer l'interface de recherche d'un élément situé sous le curseur.",
+    "config.toggle-search.name": "Basculer la recherche",
+    "config.toggle-search.desc": "Les touches qui permettent de basculer l'interface de recherche.",
+    "config.scroll-up.name": "Défilement vers le haut",
+    "config.scroll-up.desc": "Les touches qui permettent de faire défiler vers le haut un long contenu de quelques lignes.",
+    "config.scroll-down.name": "Défilement vers le bas",
+    "config.scroll-down.desc": "Les touches qui permettent de faire défiler vers le bas un long contenu de quelques lignes.",
+    "config.page-up.name": "Haut de page",
+    "config.page-up.desc": "Les touches qui permettent de faire défiler un long contenu d'une page entière vers le haut.",
+    "config.page-down.name": "Bas de page",
+    "config.page-down.desc": "Les touches qui permettent de faire défiler un long contenu d'une page entière vers le bas.",
+    "config.toggle-debug.name": "Basculer le débogage",
+    "config.toggle-debug.desc": "Les touches qui permettent de basculer l'affichage des informations de débogage."
 }

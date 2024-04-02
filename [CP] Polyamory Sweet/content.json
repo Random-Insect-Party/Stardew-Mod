@@ -1,0 +1,136 @@
+{
+  "Format": "2.0.0",
+
+  "Changes": [
+
+
+    {
+      "Action": "Load",
+      "FromFile": "Assets/AineFlower.png",
+      "Target": "Mods/ApryllForever.CPPolyamorySweet/AineFlower"
+    },
+
+    {
+      "Action": "Load",
+      "FromFile": "Assets/AineFlowerSeeds.png",
+      "Target": "Mods/ApryllForever.CPPolyamorySweet/AineFlowerSeeds"
+    },
+
+    {
+      "Action": "Load",
+      "FromFile": "Assets/AineFlowerCrop.png",
+      "Target": "Mods/ApryllForever.CPPolyamorySweet/AineFlowerCrop"
+    },
+
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Crops",
+      "Entries": {
+        "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": {
+          "Seasons": [ "spring", "summer", "fall" ],
+          "DaysInPhase": [ 1, 1, 2, 2 ], // grows in 7 days with four growing sprites
+          "HarvestItemId": "ApryllForever.CPPolyamorySweet_AineFlower",
+          "Texture": "Mods/ApryllForever.CPPolyamorySweet/AineFlowerCrop",
+          "SpriteIndex": 0
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "Entries": {
+        "ApryllForever.CPPolyamorySweet_AineFlower": {
+          "Name": "Áine Flower",
+          "DisplayName": "Áine Flower",
+          "Description": "Named for Áine, the Éire Goddess of Summer, Love, and Sexuality (pronounced Anya, or Awnya), the Áine Flower first blossomed around The Lake of Áine, in Éire. Give this to a spouse to declare them the primary caretake of the home. Or give it as a gift to anyone you love!",
+          "Type": "Basic",
+          "Category": -80,
+          "Price": 400,
+          "Edibility": -300,
+          "IsDrink": false,
+          "Buff": {
+
+
+          },
+          "ContextTags": [ "color_green", "fairy_item" ],
+          "Miscellaneous": null,
+          "Texture": "Mods/ApryllForever.CPPolyamorySweet/AineFlower",
+          "SpriteIndex": 0
+        },
+
+        "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": {
+          "Name": "Áine Flower Seeds",
+          "DisplayName": "Áine Flower Seeds",
+          "Description": "Áine Flowers grown from spring to fall, though, their traditional blooming date coincides with the Flower Dance!",
+          "Type": "Seeds",
+          "Category": -74,
+          "Price": 100,
+          "Edibility": -300,
+          "IsDrink": false,
+          "Buff": {
+          },
+          "ContextTags": [],
+          "Miscellaneous": null,
+          "Texture": "Mods/ApryllForever.CPPolyamorySweet/AineFlowerSeeds",
+          "SpriteIndex": 0
+        }
+
+
+      }
+
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "Entries": {
+        "ApryllForever.CPPolyamorySweet_AineFlower": {
+          "Id": "ApryllForever.CPPolyamorySweet_AineFlower",
+          "ItemId": "ApryllForever.CPPolyamorySweet_AineFlower",
+          "Price": 400
+        }
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [ "SeedShop", "Items" ],
+      "Entries": {
+        "ApryllForever.CPPolyamorySweet_AineFlowerSeeds": {
+          "Id": "ApryllForever.CPPolyamorySweet_AineFlowerSeeds",
+          "ItemId": "ApryllForever.CPPolyamorySweet_AineFlowerSeeds",
+          "Price": 80
+        }
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "Entries": {
+        "AineFlower_reject": "I... really do not feel close enough to you to receive this...",
+        "AineFlower_accept": "Awww thank you!!! You are very special to me too!",
+        "NPC.cs.4434": "Nghh... what is it? I'm trying to sleep.$a",
+        "NPC.cs.4435": "I just don't feel like getting up today.$s",
+        "NPC.cs.4436": "*sigh*... I just want to stay in bed.$s",
+        "NPC.cs.4437": "Nnnghh... what is it? Make your own breakfast.$a",
+        "NPC.cs.4438": "...$a#$e#I had a bad dream, that's all.$s"
+
+
+      }
+     
+    }
+   // {
+      //"Action": "EditData",
+      //"Target": "Strings/StringsFromCSFiles",
+      //"Entries": {
+      // "FlowerDanceFemaleAccept": "You want to be my partner for the flower dance?#$b#Okay! I'd love to dance with you! <$h",
+       // "FlowerDanceMaleAccept": "You want to be my partner for the flower dance?#$b#Okay! I'd love to dance with you! <$h"
+      //}
+    //}
+
+  ]
+}//Apryll

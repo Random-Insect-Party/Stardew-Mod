@@ -1,0 +1,5 @@
+{
+  "HealthPerSecond": 1,
+  "EnergyPerSecond": 5,
+  "ShouldHealWhenPaused": false
+}

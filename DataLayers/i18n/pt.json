@@ -1,4 +1,4 @@
-{
+﻿{
     // accessible
     "accessible.name": "Acessibilidade",
     "accessible.clear": "Limpo",
@@ -35,7 +35,7 @@
     "crop-harvest.name": "Plantações: Colheita",
     "crop-harvest.ready": "Pode colher",
     "crop-harvest.not-ready": "Ainda não cresceu totalmente",
-    "crop-harvest.not-enough-time": "Plantação morta/não cresce à tempo",
+    "crop-harvest.not-enough-time-or-dead": "Não cresce à tempo / plantação morta",
 
     // crops: watered
     "crop-water.name": "Plantações: Irrigação",
@@ -52,6 +52,7 @@
     "crop-fertilizer.fertilizer": "Fertilizante",
     "crop-fertilizer.retaining-soil": "Retentor de água",
     "crop-fertilizer.speed-gro": "Acelerador de crescimento",
+    "crop-fertilizer.multiple": "Tipos Diferentes de Fertilizantes",
 
     // machine processing
     "machines.name": "Processamento de Máquina",

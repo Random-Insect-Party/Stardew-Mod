@@ -1,4 +1,4 @@
-{
+﻿{
     /*********
     ** Generic translations
     *********/
@@ -83,83 +83,13 @@
     "data.npc.pet.description": "Il tuo fedele animale domestico.",
     "data.npc.horse.description": "Il tuo fedele destriero.",
     "data.npc.junimo.description": "Uno spirito della foresta, proveniente dal mondo degli spiriti. Si sa molto poco di loro.",
-    "data.npc.trashbear.description": "Uno spirito amichevole che ripulisce la spazzatura.",
+    "data.npc.trash-bear.description": "Uno spirito amichevole che ripulisce la spazzatura.",
 
     // item types
-    "data.type.debris": "Detriti",
-    "data.type.stone": "Pietra",
     "data.type.container": "Contenitore",
 
-    // farm items
+    // override item text
     "data.item.egg-incubator.description": "Trasforma le uova in galline o anatre.",
-    "data.item.broken-branch.name": "Ramo rotto",
-    "data.item.broken-branch.description": "Un ramo rotto. Taglialo con un'ascia per ottenere del legno.",
-    "data.item.stone.name": "Pietra",
-    "data.item.stone.description": "Una pietra grigia non descrivibile. Rompila per ottenere pietra.",
-    "data.item.geode.name": "Nodo di geodi",
-    "data.item.geode.description": "Rompilo per ottenere geodi.",
-    "data.item.frozen-geode.name": "Nodo di geodi congelati",
-    "data.item.frozen-geode.description": "Rompilo per ottenere geodi congelati.",
-    "data.item.magma-geode.name": "Nodo di geodi magmatici",
-    "data.item.magma-geode.description": "Rompilo per ottenere geodi magmatici.",
-
-    // weeds & crystals
-    "data.item.weed.name": "Erbaccia",
-    "data.item.weed.description": "Un'erbaccia non descrivibile. Potrebbe contenere fibre o semi misti.",
-    "data.item.fertile-weed.name": "Erbaccia fertile",
-    "data.item.fertile-weed.description": "Rilascia sicuramente semi selvatici.",
-    "data.item.ice-crystal.name": "Cristallo di ghiaccio",
-    "data.item.ice-crystal.description": "Un cristallo di ghiaccio non descrivibile. C'è una piccola probabilità che contenga del quarzo raffinato.",
-
-    // mine gems
-    "data.item.amethyst-node.name": "Grappolo di ametiste",
-    "data.item.amethyst-node.description": "Rompilo per ottenere ametiste.",
-    "data.item.aquamarine-node.name": "Nodo di acquamarina",
-    "data.item.aquamarine-node.description": "Rompilo per ottenere acquamarina.",
-    "data.item.diamond-node.name": "Nodo di diamanti",
-    "data.item.diamond-node.description": "Rompilo per ottenere diamanti.",
-    "data.item.emerald-node.name": "Nodo di smeraldi",
-    "data.item.emerald-node.description": "Rompilo per ottenere smeraldi.",
-    "data.item.gem-node.name": "Nodo di gemme",
-    "data.item.gem-node.description": "Rompilo per ottenere smeraldi, acquamarina, rubini, ametiste, topazi, giada, o diamanti.",
-    "data.item.jade-node.name": "Nodo di giada",
-    "data.item.jade-node.description": "Rompilo per ottenere giada.",
-    "data.item.mystic-stone.name": "Pietra mistica",
-    "data.item.mystic-stone.description": "Rompila per ottenere gemme rare e minerali, inclusi i frammenti prismatici.",
-    "data.item.prismatic-node.name": "Nodo prismatico",
-    "data.item.prismatic-node.description": "Rompilo per ottenere frammenti prismatici.",
-    "data.item.ruby-node.name": "Nodo di rubini",
-    "data.item.ruby-node.description": "Rompilo per ottenere rubini.",
-    "data.item.topaz-node.name": "Nodo di topazi",
-    "data.item.topaz-node.description": "Rompilo per ottenere topazi.",
-
-    // mine ores
-    "data.item.cinder-shard-node.name": "Nodo di Schegge di brace",
-    "data.item.cinder-shard-node.description": "Rompilo per ottenere delle schegge di brace.",
-    "data.item.copper-node.name": "Nodo di rame",
-    "data.item.copper-node.description": "Rompilo per ottenere del rame.",
-    "data.item.gold-node.name": "Nodo d'oro",
-    "data.item.gold-node.description": "Rompilo per ottenere dell'oro.",
-    "data.item.iridium-node.name": "Nodo di iridio",
-    "data.item.iridium-node.description": "Rompilo per ottenere dell'iridio.",
-    "data.item.iron-node.name": "Nodo di ferro",
-    "data.item.iron-node.description": "Rompilo per ottenere del ferro.",
-    "data.item.omni-geode-node.name": "Nodo di omni-geode",
-    "data.item.omni-geode-node.description": "Rompilo per ottenere un omni-geode.",
-
-    // mine stones
-    "data.item.colored-stone.name": "Pietra colorata",
-    "data.item.colored-stone.description": "Una pietra indescrivibile. Potrebbe contenere pietra, minerali, o geodi.",
-    "data.item.mine-stone.name": "Pietra",
-    "data.item.mine-stone.description": "Rompila per ottenere una pietra con probabilità di carbone.",
-
-    // other stones
-    "data.item.clay-stone.name": "Pietra di argilla",
-    "data.item.clay-stone.description": "Rompila per ottenere dell'argilla.",
-    "data.item.fossil-stone.name": "Pietra fossile",
-    "data.item.fossil-stone.description": "Rompila per ottenere fossili e ossa.",
-
-    // mine containers
     "data.item.barrel.name": "Barile",
     "data.item.barrel.description": "Rompilo per ottenere diversi materiali.",
     "data.item.box.name": "Scatola",
@@ -251,8 +181,7 @@
     "building.output-processing": "Produzione in corso",
     "building.output-ready": "Produzione pronta",
     "building.slimes.summary": "{{count}} di un massimo di {{max}} melme",
-    "building.stored-hay.summary-one-silo": "{{hayCount}} fieno (capacità massima: {{maxHay}})",
-    "building.stored-hay.summary-multiple-silos": "{{hayCount}} fieno in {{siloCount}} silo (capacità massima: {{maxHay}})",
+    "building.stored-hay.summary": "{{hayCount}} su {{maxHayInLocation}} di fieno sono in questo luogo (capacità max di questo edificio: {{maxHayInBuilding}})",
     "building.upgrades.barn.0": "fino a 4 animali, aggiunge le mucche",
     "building.upgrades.barn.1": "fino a 8 animali, aggiunge la maternità e le capre",
     "building.upgrades.barn.2": "fino a 12 animali, aggiunge l'auto-nutrimento, i maiali, e le pecore",
@@ -352,6 +281,7 @@
     ** Item > generic lookups
     *********/
     // labels
+    "item.custom-item": "Oggetto personalizzato",
     "item.contents": "Contenuti",
     "item.loves-this": "Lo adora",
     "item.likes-this": "Piace a",
@@ -370,6 +300,7 @@
     "item.produces-dye": "Produce tinta",
 
     // values
+    "item.custom-item.summary": "aggiunto da {{modName}}",
     "item.contents.placed": "{{name}} piazzato",
     "item.contents.ready": "{{name}} pronto",
     "item.contents.partial": "{{name}} fra {{time}}",
@@ -381,6 +312,7 @@
     "item.needed-for.full-collection": "l'achievement 'collezione completa' (donane ancora uno al museo)",
     "item.needed-for.gourmet-chef": "l'achievement 'chef da gourmet' (cucina {{recipes}})",
     "item.needed-for.craft-master": "l'achievement 'maestro della fabbricazione' (crea {{recipes}})",
+    "item.needed-for.quests": "missioni attuali ({{quests}})",
     "item.sells-to.shipping-box": "Cassetta delle spedizioni",
     "item.recipes-for-ingredient.entry": "{{name}} ({{count}} necessari)",
     "item.recipes-for-machine.multiple-items": "{{name}} x{{count}}",
@@ -443,6 +375,28 @@
 
 
     /*********
+    ** Item > melee weapon lookups
+    *********/
+    // labels
+    "item.melee-weapon.accuracy": "Precisione",
+    "item.melee-weapon.critical-chance": "Probabilità di critico",
+    "item.melee-weapon.critical-damage": "Danno critico",
+    "item.melee-weapon.damage": "Danno",
+    "item.melee-weapon.defense": "Difesa",
+    "item.melee-weapon.knockback": "Contraccolpo",
+    "item.melee-weapon.reach": "Portata",
+    "item.melee-weapon.speed": "Velocità d'attacco",
+
+    // values
+    "item.melee-weapon.critical-damage.label": "{{multiplier}} volte il danno normale (esclusi i bonus del giocatore)",
+    "item.melee-weapon.defense.label": "{{amount}} mentre è equipaggiato/a",
+    "item.melee-weapon.knockback.label": "{{amount}} ({{multiplier}} volte la distanza normale)",
+    "item.melee-weapon.reach.label": "{{amount}} pixel",
+    "item.melee-weapon.speed.shown-vs-actual": "mostrata: {{shownSpeed}}{{lineBreak}}effettiva: {{actualSpeed}}",
+    "item.melee-weapon.speed.summary": "{{speed}} ({{milliseconds}} millisecondi per ogni frame d'attacco, esclusi i bonus di velocità del giocatore)",
+
+
+    /*********
     ** Item > movie lookups
     *********/
     // labels
@@ -451,6 +405,7 @@
     "item.movie-ticket.loves-movie": "Adora il film",
     "item.movie-ticket.likes-movie": "Gli piace il film",
     "item.movie-ticket.dislikes-movie": "Non gli piace il film",
+    "item.movie-ticket.rejects-movie": "Non guarderà il film",
 
     // values
     "item.movie-snack-preference.love": "{{name}} lo adora",
@@ -509,7 +464,7 @@
     "npc.friendship.need-bouquet": "ha bisogno di un bouquet per avanzare",
     "npc.friendship.need-points": "prossimo fra {{count}} pti",
     "npc.undiscovered-gift-taste": "{{count}} oggetti non rivelati",
-    "npc.undiscovered-gift-taste-appended": ", e {{count}} oggetti non rivelati",
+    "npc.unowned-gift-taste": "{{count}} oggetti non posseduti",
 
 
     /*********
@@ -609,9 +564,9 @@
     *********/
     // labels
     "puzzle.island-shrine.title": "Puzzle del Reliquiario sull'Isola",
-    "puzzle.island-shrine.description": "Per ogni piedistallo, posiziona l'oggetto lasciato dagli uccelli gemma nel luogo dell'isola corrispondente quando piove. Gli oggetti sono casuali per ogni salvataggio.",
 
     // values
+    "puzzle.island-shrine.solution": "Per ogni piedistallo, posiziona l'oggetto lasciato dagli uccelli gemma nel luogo dell'isola corrispondente quando piove. Gli oggetti sono casuali per ogni salvataggio.",
     "puzzle.island-shrine.solution.east": "Est: {{item}}",
     "puzzle.island-shrine.solution.north": "Nord: {{item}}",
     "puzzle.island-shrine.solution.south": "Sud: {{item}}",
@@ -650,7 +605,7 @@
     // labels
     "tree.stage": "Fase di crescita",
     "tree.next-growth": "Prossima crescita",
-    "tree.has-seed": "Ha i semi",
+    "tree.seed": "Ha i semi",
     "tree.is-fertilized": "È fertilizzato",
 
     // values
@@ -663,9 +618,12 @@
     "tree.name.unknown": "Albero Sconosciuto",
     "tree.stage.done": "Completamente cresciuto",
     "tree.stage.partial": "{{stageName}} ({{step}} di {{max}})",
-    "tree.next-growth.winter": "non può crescere fuori da una serra in inverno",
+    "tree.next-growth.winter": "non può crescere fuori da una serra in inverno se non fertilizzata",
     "tree.next-growth.adjacent-trees": "non può crescere perchè gli altri alberi sono troppo vicini",
     "tree.next-growth.chance": "{{chance}}% probabilità di diventare un '{{stage}}' domani",
+    "tree.seed.not-ready": "Non pronto",
+    "tree.seed.probability-daily": "{{chance}}% di probabilità di {{itemName}} ogni giorno.",
+    "tree.seed.probability-on-chop": "{{chance}}% di probabilità di far cadere {{itemName}} quando viene abbattuto.",
 
     // growth stages
     "tree.stages.seed": "seme",
@@ -673,5 +631,65 @@
     "tree.stages.sapling": "alberello",
     "tree.stages.bush": "cespuglio",
     "tree.stages.smallTree": "piccolo albero",
-    "tree.stages.tree": "albero"
+    "tree.stages.tree": "albero",
+
+
+    /*********
+    ** Generic Mod Config Menu UI
+    *********/
+    // main options
+    "config.title.main-options": "Opzioni principali",
+    "config.progression-mode.name": "Modalità progressione",
+    "config.progression-mode.desc": "Scegli se nascondere alcuni contenuti (ad esempio, i gusti dei regali e le soluzioni degli enigmi) finché non li si scopre nel gioco.",
+    "config.force-full-screen.name": "Forza schermo intero",
+    "config.force-full-screen.desc": "Scegli se il menu deve essere sempre a tutto schermo, invece che centrato nella finestra. Questa opzione è utile soprattutto quando si visualizzano i campi di data mining.",
+
+    // gift tastes
+    "config.title.gift-tastes": "Gusti dei regali",
+    "config.show-gift-tastes.loved.name": "Mostra regali amati",
+    "config.show-gift-tastes.loved.desc": "Scegli se mostrare i regali amati nella scheda del PNG e dell'oggetto.",
+    "config.show-gift-tastes.liked.name": "Mostra regali piaciuti",
+    "config.show-gift-tastes.liked.desc": "Scegli se mostrare i regali piaciuti nella scheda del PNG e dell'oggetto.",
+    "config.show-gift-tastes.neutral.name": "Mostra regali neutrali",
+    "config.show-gift-tastes.neutral.desc": "Scegli se mostrare i regali neutrali nella scheda del PNG e dell'oggetto.",
+    "config.show-gift-tastes.disliked.name": "Mostra regali non piaciuti",
+    "config.show-gift-tastes.disliked.desc": "Scegli se mostrare i regali non piaciuti nella scheda del PNG e dell'oggetto.",
+    "config.show-gift-tastes.hated.name": "Mostra regali odiati",
+    "config.show-gift-tastes.hated.desc": "Scegli se mostrare i regali odiati nella scheda del PNG e dell'oggetto.",
+
+    "config.show-unowned-gifts.name": "Mostra i gusti dei regali non posseduti",
+    "config.show-unowned-gifts.desc": "Mostra i gusti dei regali per gli oggetti che il giocatore non possiede da qualche parte nel mondo.",
+
+    "config.highlight-unrevealed-gift-tastes.name": "Evidenzia i gusti dei regali non rivelati",
+    "config.highlight-unrevealed-gift-tastes.desc": "Scegli se evidenziare i gusti dei regali degli oggetti che non sono stati rivelati nel profilo del PNG. Se abilitato, i gusti dei regali non rivelati saranno in grassetto.",
+
+    // advanced options
+    "config.title.advanced-options": "Opzioni avanzate",
+    "config.tile-lookups.name": "Ricerca piastrelle",
+    "config.tile-lookups.desc": "Se includere o meno le piastrelle della mappa come target di ricerca.",
+    "config.data-mining-fields.name": "Mostra i campi di data mining",
+    "config.data-mining-fields.desc": "Scegli se mostrare i dati grezzi utili per i data miner (come campi separati in fondo ai risultati delle ricerche). Si tratta di una funzione avanzata non destinata alla maggior parte dei giocatori.",
+    "config.target-redirection.name": "Reindirizzamento del target",
+    "config.target-redirection.desc": "In alcuni casi il gioco genera un'entità temporanea per rappresentarne un'altra. Ad esempio, Abigail nelle miniere è in realtà un PNG temporaneo con il nome di 'AbigailMine', quindi cercarla lì non mostrerà le informazioni reali di Abigail. Con questa opzione attivata, Lookup Anything cercherà invece l'Abigail originale.",
+    "config.scroll-amount.name": "Quantità di scorrimento",
+    "config.scroll-amount.desc": "Il numero di pixel da spostare per ogni scorrimento verso l'alto o verso il basso.",
+
+    // controls section
+    "config.title.controls": "Controlli",
+    "config.hide-on-key-up.name": "Nascondi con tasto non premuto",
+    "config.hide-on-key-up.desc": "Scegli se nascondere l'interfaccia utente di ricerca quando si rilascia il tasto di ricerca.",
+    "config.toggle-lookup.name": "Attiva lookup",
+    "config.toggle-lookup.desc": "I tasti che attivano l'interfaccia utente di ricerca per qualcosa sotto il cursore.",
+    "config.toggle-search.name": "Attiva ricerca",
+    "config.toggle-search.desc": "I tasti che attivano l'interfaccia utente di ricerca.",
+    "config.scroll-up.name": "Scorri verso l'alto",
+    "config.scroll-up.desc": "I tasti che permettono di scorrere i contenuti lunghi di qualche riga verso l'alto.",
+    "config.scroll-down.name": "Scorri verso il basso",
+    "config.scroll-down.desc": "I tasti che permettono di scorrere i contenuti lunghi di qualche riga verso il basso.",
+    "config.page-up.name": "Pagina su",
+    "config.page-up.desc": "I tasti che fanno scorrere i contenuti lunghi di una pagina intera verso l'alto.",
+    "config.page-down.name": "Pagina giù",
+    "config.page-down.desc": "I tasti che fanno scorrere i contenuti lunghi di una pagina intera verso il basso.",
+    "config.toggle-debug.name": "Attiva debug",
+    "config.toggle-debug.desc": "I tasti che attivano la visualizzazione delle informazioni di debug."
 }

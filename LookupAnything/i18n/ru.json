@@ -1,4 +1,4 @@
-{
+﻿{
     /*********
     ** Generic translations
     *********/
@@ -8,7 +8,7 @@
     "generic.yesterday": "вчера",
 
     // generic values
-    "generic.unknown": "unknown", // TODO
+    "generic.unknown": "неизвестно",
 
     // generic field values
     "generic.percent": "{{percent}}%",
@@ -72,7 +72,7 @@
     "shop.marnie": "Марни",
     "shop.pierre": "Пьер",
     "shop.robin": "Робин",
-    "shop.volcano": "volcano shop", // TODO
+    "shop.volcano": "Магазин в вулкане",
     "shop.willy": "Вилли",
 
     // recipe types
@@ -84,84 +84,13 @@
     "data.npc.pet.description": "Ваш преданный питомец.",
     "data.npc.horse.description": "Ваш верный конь.",
     "data.npc.junimo.description": "Дух леса из мира духов. Мало что известно о них.",
-    "data.npc.trashbear.description": "Дружелюбный дух, который убирает мусор.",
+    "data.npc.trash-bear.description": "Дружелюбный дух, который убирает мусор.",
 
     // item types
-    "data.type.debris": "Мусор",
-    "data.type.stone": "Камень",
     "data.type.container": "Контейнер",
 
-    // farm items
+    // override item text
     "data.item.egg-incubator.description": "Вылупляет цыплят и утят.",
-    "data.item.broken-branch.name": "Сломанная ветка",
-    "data.item.broken-branch.description": "Сломанная ветка. Разрубите топором, чтобы получить дерево.",
-    "data.item.stone.name": "Камень",
-    "data.item.stone.description": "Невзрачный серый камень. Разбейте, чтобы получить камень.",
-    "data.item.geode.name": "Жеодовая жила",
-    "data.item.geode.description": "Разбейте, чтобы получить жеоды.",
-    "data.item.frozen-geode.name": "Морозная жеодовая жила",
-    "data.item.frozen-geode.description": "Разбейте, чтобы получить морозные жеоды.",
-    "data.item.magma-geode.name": "Магма-жеодовая жила",
-    "data.item.magma-geode.description": "Разбейте, чтобы получить Магма-жеоды.",
-
-    // weeds & crystals
-    "data.item.weed.name": "Сорняк",
-    "data.item.weed.description": "Невзрачный сорняк. Может содержать волокно или смешанные семена.",
-    "data.item.fertile-weed.name": "Плодородный сорняк",
-    "data.item.fertile-weed.description": "Гарантированно выпадают смешанные семена.",
-    "data.item.ice-crystal.name": "Ледяной кристалл",
-    "data.item.ice-crystal.description": "Невзрачный ледяной кристалл. Очень малый шанс выпадения очищенного кварца.",
-
-    // mine gems
-    "data.item.amethyst-node.name": "Аметистовая жила",
-    "data.item.amethyst-node.description": "Разбейте для получения аметистов.",
-    "data.item.aquamarine-node.name": "Аквамариновая жила",
-    "data.item.aquamarine-node.description": "Разбейте для получения аквамаринов.",
-    "data.item.diamond-node.name": "Алмазная жила",
-    "data.item.diamond-node.description": "Разбейте для получения алмазов.",
-    "data.item.emerald-node.name": "Изумрудная жила",
-    "data.item.emerald-node.description": "Разбейте для получения изумрудов.",
-    "data.item.gem-node.name": "Самоцветная жила",
-    "data.item.gem-node.description": "Разбейте для получения изумрудов, аквамаринов, рубинов, аметистов, топазов, нефритов, или алмазов.",
-    "data.item.jade-node.name": "Нефритовая жила",
-    "data.item.jade-node.description": "Разбейте для получения нефритов.",
-    "data.item.mystic-stone.name": "Мистический камень",
-    "data.item.mystic-stone.description": "Разбейте для получения редких самоцветов и руд, включая призматические осколки.",
-    "data.item.prismatic-node.name": "Призматическая жила",
-    "data.item.prismatic-node.description": "Разбейте для получения призматических осколков.",
-    "data.item.ruby-node.name": "Рубиновая жила",
-    "data.item.ruby-node.description": "Разбейте для получения рубинов.",
-    "data.item.topaz-node.name": "Жила топазов",
-    "data.item.topaz-node.description": "Разбейте для получения топазов.",
-
-    // mine ores
-    "data.item.cinder-shard-node.name": "Cinder Shard Node", // TODO
-    "data.item.cinder-shard-node.description": "Break apart to obtain cinder shards.", // TODO
-    "data.item.copper-node.name": "Медная жила",
-    "data.item.copper-node.description": "Разбейте для получения медной руды.",
-    "data.item.gold-node.name": "Золотая жила",
-    "data.item.gold-node.description": "Разбейте для получения золотой руды.",
-    "data.item.iridium-node.name": "Иридиевая жила",
-    "data.item.iridium-node.description": "Разбейте для получения иридиевой руды.",
-    "data.item.iron-node.name": "Железная жила",
-    "data.item.iron-node.description": "Разбейте для получения железной руды.",
-    "data.item.omni-geode-node.name": "Omni Geode Node", // TODO
-    "data.item.omni-geode-node.description": "Break apart to obtain an omni geode.", // TODO
-
-    // mine stones
-    "data.item.colored-stone.name": "Цветной камень",
-    "data.item.colored-stone.description": "Невзрачный камень. Может содержать камни, руду или жеоды.",
-    "data.item.mine-stone.name": "Камень",
-    "data.item.mine-stone.description": "Break apart to obtain stone with a chance of coal.", // TODO
-
-    // other stones
-    // TODO
-    "data.item.clay-stone.name": "Clay Stone",
-    "data.item.clay-stone.description": "Break apart to obtain clay.",
-    "data.item.fossil-stone.name": "Fossil Stone",
-    "data.item.fossil-stone.description": "Break apart to obtain fossils and bones.",
-
-    // mine containers
     "data.item.barrel.name": "Бочка",
     "data.item.barrel.description": "Разбейте, чтобы получить разные вещи.",
     "data.item.box.name": "Ящик",
@@ -193,15 +122,15 @@
     "location.witchSwamp": "болото ведьмы",
     "location.woods": "тайный лес",
 
-    "location.caldera": "Ginger Island caldera", // TODO
-    "location.islandEast": "Ginger Island east", // TODO
-    "location.islandNorth": "Ginger Island north", // TODO
-    "location.islandSouth": "Ginger Island south", // TODO
-    "location.islandSouthEast": "Ginger Island southeast", // TODO
-    "location.islandSouthEastCave": "Ginger Island southeast cave", // TODO
-    "location.islandWest": "Ginger Island west", // TODO
-    "location.islandWest.fish-area-1": "Ginger Island west (ocean)", // TODO
-    "location.islandWest.fish-area-2": "Ginger Island west (pond)", // TODO
+    "location.caldera": "Имбирный остров - Кратер",
+    "location.islandEast": "Имбирный остров - Восток",
+    "location.islandNorth": "Имбирный остров - Север",
+    "location.islandSouth": "Имбирный остров - Юг",
+    "location.islandSouthEast": "Имбирный остров - Юго-Восток",
+    "location.islandSouthEastCave": "Имбирный остров - Юго-Восточная Пещера",
+    "location.islandWest": "Имбирный остров - Запад",
+    "location.islandWest.fish-area-1": "Имбирный остров - Запад (океан)",
+    "location.islandWest.fish-area-2": "Имбирный остров - Запад (пруд)",
 
     "location.unknown-fish-area": "{{locationName}} (рыболовный район {{id}})",
 
@@ -253,8 +182,7 @@
     "building.output-processing": "В очереди",
     "building.output-ready": "Готово",
     "building.slimes.summary": "{{count}} из {{max}} слизней",
-    "building.stored-hay.summary-one-silo": "{{hayCount}} сена (максимум: {{maxHay}})",
-    "building.stored-hay.summary-multiple-silos": "{{hayCount}} сена в {{siloCount}} силосных башнях (максимум: {{maxHay}})",
+    "building.stored-hay.summary": "{{hayCount}} of {{maxHayInLocation}} hay in this location (max capacity in this building: {{maxHayInBuilding}})", // TODO
     "building.upgrades.barn.0": "до 4-ёх животных, разблокируется: коровы.",
     "building.upgrades.barn.1": "до 8-ми животных; разблокируются: козлы и беременность животных.",
     "building.upgrades.barn.2": "до 12-ти животных; разблокируются: система подачи корма, свиньи и овцы.",
@@ -336,8 +264,8 @@
     // labels
     "crop.summary": "Культура",
     "crop.harvest": "Урожай",
-    "crop.fertilized": "Fertilized", // TODO
-    "crop.watered": "Watered", // TODO
+    "crop.fertilized": "Удобрено",
+    "crop.watered": "Полито",
 
     // values
     "crop.summary.dead": "Этот урожай завял.",
@@ -354,6 +282,7 @@
     ** Item > generic lookups
     *********/
     // labels
+    "item.custom-item": "Custom item", // TODO
     "item.contents": "Содержит",
     "item.loves-this": "Любят",
     "item.likes-this": "Нравится",
@@ -372,6 +301,7 @@
     "item.produces-dye": "Производит краситель",
 
     // values
+    "item.custom-item.summary": "added by {{modName}}", // TODO
     "item.contents.placed": "содержит {{name}}",
     "item.contents.ready": "{{name}} готов",
     "item.contents.partial": "{{name}} через {{time}}",
@@ -383,6 +313,7 @@
     "item.needed-for.full-collection": "достижение 'Полная коллекция' (Пожертвуйте музею)",
     "item.needed-for.gourmet-chef": "достижение 'Шеф-повар' (приготовьте рецепт: {{recipes}})",
     "item.needed-for.craft-master": "достижение 'Мастер' (создайте предмет: {{recipes}})",
+    "item.needed-for.quests": "current quests ({{quests}})", // TODO
     "item.sells-to.shipping-box": "Отгрузочный ящик",
     "item.recipes-for-ingredient.entry": "{{name}} ({{count}} шт.)",
     "item.recipes-for-machine.multiple-items": "{{name}} x{{count}}",
@@ -445,6 +376,30 @@
 
 
     /*********
+    ** Item > melee weapon lookups
+    *********/
+    // labels
+    // TODO
+    "item.melee-weapon.accuracy": "Accuracy",
+    "item.melee-weapon.critical-chance": "Critical chance",
+    "item.melee-weapon.critical-damage": "Critical damage",
+    "item.melee-weapon.damage": "Damage",
+    "item.melee-weapon.defense": "Defense",
+    "item.melee-weapon.knockback": "Knockback",
+    "item.melee-weapon.reach": "Reach",
+    "item.melee-weapon.speed": "Attack speed",
+
+    // values
+    // TODO
+    "item.melee-weapon.critical-damage.label": "{{multiplier}} times normal damage (before player bonuses)",
+    "item.melee-weapon.defense.label": "{{amount}} while equipped",
+    "item.melee-weapon.knockback.label": "{{amount}} ({{multiplier}} times normal distance)",
+    "item.melee-weapon.reach.label": "{{amount}} pixels",
+    "item.melee-weapon.speed.shown-vs-actual": "shown: {{shownSpeed}}{{lineBreak}}actual: {{actualSpeed}}",
+    "item.melee-weapon.speed.summary": "{{speed}} ({{milliseconds}} milliseconds per swing frame, before player speed bonuses)",
+
+
+    /*********
     ** Item > movie lookups
     *********/
     // labels
@@ -453,6 +408,7 @@
     "item.movie-ticket.loves-movie": "Любит кино",
     "item.movie-ticket.likes-movie": "Нравится кино",
     "item.movie-ticket.dislikes-movie": "Не нравится кино",
+    "item.movie-ticket.rejects-movie": "Won't watch movie", // TODO
 
     // values
     "item.movie-snack-preference.love": "{{name}} любит это",
@@ -465,9 +421,8 @@
     ** Item > music block lookups
     *********/
     // labels
-    // TODO
-    "item.music-block.pitch": "Pitch",
-    "item.music-block.drum-type": "Drum type",
+    "item.music-block.pitch": "Высота звука",
+    "item.music-block.drum-type": "Тип барабана",
 
 
     /*********
@@ -512,7 +467,7 @@
     "npc.friendship.need-bouquet": "нужен букет для след.",
     "npc.friendship.need-points": "след. через {{count}}",
     "npc.undiscovered-gift-taste": "{{count}} нераскрытых предметов",
-    "npc.undiscovered-gift-taste-appended": ", и {{count}} нераскрытых предметов",
+    "npc.unowned-gift-taste": "{{count}} unowned items", // TODO
 
 
     /*********
@@ -579,53 +534,46 @@
     ** Puzzles
     *********/
     // labels
-    // TODO
-    "puzzle.solution": "Solution",
+    "puzzle.solution": "Решение",
 
     // values
-    // TODO
-    "puzzle.solution.solved": "Puzzle solved!",
-    "puzzle.solution.hidden": "Puzzle solutions are hidden in progression mode.",
+    "puzzle.solution.solved": "Паззл решен!",
+    "puzzle.solution.hidden": "Решение паззла скрыто в режиме прогрессии.",
 
 
     /*********
     ** Puzzles > Fern Islands crystal cave
     *********/
     // labels
-    // TODO
-    "puzzle.island-crystal-cave.title": "Crystal Cave Puzzle",
-    "puzzle.island-crystal-cave.crystal-id": "Crystal ID",
+    "puzzle.island-crystal-cave.title": "Паззл Кристалльной пещеры",
+    "puzzle.island-crystal-cave.crystal-id": "ID Кристалла",
 
     // values
-    // TODO
-    "puzzle.island-crystal-cave.solution.not-activated": "Activate the statue to start the puzzle.",
-    "puzzle.island-crystal-cave.solution.waiting": "Waiting for game to generate sequence...",
-    "puzzle.island-crystal-cave.solution.activated": "Repeat the pattern of activated crystals:",
+    "puzzle.island-crystal-cave.solution.not-activated": "Активируйте статую для старта головоломки.",
+    "puzzle.island-crystal-cave.solution.waiting": "Подождите, пока игра генерирует последовательность...",
+    "puzzle.island-crystal-cave.solution.activated": "Повторите последовательность активации кристаллов:",
 
 
     /*********
     ** Puzzles > Fern Islands mermaid puzzle
     *********/
     // labels
-    // TODO
-    "puzzle.island-mermaid.title": "Island Mermaid Puzzle",
-    "puzzle.island-mermaid.solution.intro": "Use flute blocks to play the Night Market mermaid song. Pitch values (you can lookup a flute block to see its pitch):",
+    "puzzle.island-mermaid.title": "Паззл Острова Русалки",
+    "puzzle.island-mermaid.solution.intro": " Используйте блоки-флейты, чтобы воспроизвести песню русалки с Ночного Рынка. Высоты нот (вы можете осмотреть блок-флейту и увидеть высоту ноты):",
 
 
     /*********
     ** Puzzles > Fern Islands shrine puzzle
     *********/
     // labels
-    // TODO
-    "puzzle.island-shrine.title": "Island Shrine Puzzle",
-    "puzzle.island-shrine.description": "For each pedestal, place the item dropped by gem birds in the corresponding island location when it rains. The items are randomized for each save.",
+    "puzzle.island-shrine.title": "Паззл Островного Святилища",
 
     // values
-    // TODO
-    "puzzle.island-shrine.solution.east": "East: {{item}}",
-    "puzzle.island-shrine.solution.north": "North: {{item}}",
-    "puzzle.island-shrine.solution.south": "South: {{item}}",
-    "puzzle.island-shrine.solution.west": "West: {{item}}",
+    "puzzle.island-shrine.solution": "Положите на каждый из пьедесталов по предмету, оброненному драгоценными птицами в соответствующих локациях острова во время дождя. Предметы случайные для каждого сохранения.",
+    "puzzle.island-shrine.solution.east": "Восток: {{item}}",
+    "puzzle.island-shrine.solution.north": "Север: {{item}}",
+    "puzzle.island-shrine.solution.south": "Юг: {{item}}",
+    "puzzle.island-shrine.solution.west": "Запад: {{item}}",
 
 
     /*********
@@ -633,7 +581,7 @@
     *********/
     // labels
     "tile.description": "Позиция тайла на карте. Это отображается, потому что вы включили просмотр тайлов в конфигурационном файле мода.",
-    "tile.game-location": "Location", // TODO
+    "tile.game-location": "Локация",
     "tile.map-name": "Название локации",
     "tile.tile": "Тайл",
     "tile.tile-index": "{{layerName}}: индекс тайла",
@@ -660,12 +608,12 @@
     // labels
     "tree.stage": "Стадия роста",
     "tree.next-growth": "След. стадия",
-    "tree.has-seed": "Содержит семена",
+    "tree.seed": "Содержит семена",
     "tree.is-fertilized": "Использовано удобрение",
 
     // values
     "tree.name.big-mushroom": "Большой гриб",
-    "tree.name.mahogany": "Mahogany Tree", // TODO
+    "tree.name.mahogany": "Красное дерево",
     "tree.name.maple": "Клён",
     "tree.name.oak": "Дуб",
     "tree.name.palm": "Пальма",
@@ -673,9 +621,12 @@
     "tree.name.unknown": "Неизвестное дерево",
     "tree.stage.done": "полностью выросло",
     "tree.stage.partial": "{{stageName}} ({{step}} из {{max}})",
-    "tree.next-growth.winter": "не может расти зимой вне теплицы",
+    "tree.next-growth.winter": "не может расти зимой вне теплицы без удобрения",
     "tree.next-growth.adjacent-trees": "не может расти, т.к рядом нет места.",
     "tree.next-growth.chance": "20% шанс, что завтра вырастит в {{stage}}",
+    "tree.seed.not-ready": "Not ready", // TODO
+    "tree.seed.probability-daily": "{{chance}}% chance of {{itemName}} each day.", // TODO
+    "tree.seed.probability-on-chop": "{{chance}}% chance of dropping {{itemName}} when chopped down.", // TODO
 
     // growth stages
     "tree.stages.seed": "семя",
@@ -683,5 +634,69 @@
     "tree.stages.sapling": "саженец",
     "tree.stages.bush": "куст",
     "tree.stages.smallTree": "малое дерево",
-    "tree.stages.tree": "дерево"
+    "tree.stages.tree": "дерево",
+
+
+    /*********
+    ** Generic Mod Config Menu UI
+    *********/
+    // main options
+    // TODO
+    "config.title.main-options": "Main options",
+    "config.progression-mode.name": "Progression mode",
+    "config.progression-mode.desc": "Whether to hide some content (e.g. gift tastes and puzzle solutions) until you've discovered it in-game.",
+    "config.force-full-screen.name": "Force full screen",
+    "config.force-full-screen.desc": "Whether the menu should always be full-screen, instead of centered in the window. This is mainly useful when viewing data mining fields.",
+
+    // gift tastes
+    // TODO
+    "config.title.gift-tastes": "Gift tastes",
+    "config.show-gift-tastes.loved.name": "Show loved gifts",
+    "config.show-gift-tastes.loved.desc": "Whether to show loved gifts in NPC and item lookups.",
+    "config.show-gift-tastes.liked.name": "Show liked gifts",
+    "config.show-gift-tastes.liked.desc": "Whether to show liked gifts in NPC and item lookups.",
+    "config.show-gift-tastes.neutral.name": "Show neutral gifts",
+    "config.show-gift-tastes.neutral.desc": "Whether to show neutral gifts in NPC and item lookups.",
+    "config.show-gift-tastes.disliked.name": "Show disliked gifts",
+    "config.show-gift-tastes.disliked.desc": "Whether to show disliked gifts in NPC and item lookups.",
+    "config.show-gift-tastes.hated.name": "Show hated gifts",
+    "config.show-gift-tastes.hated.desc": "Whether to show hated gifts in NPC and item lookups.",
+
+    "config.show-unowned-gifts.name": "Show unowned gift tastes",
+    "config.show-unowned-gifts.desc": "Whether to show gift tastes for items that the player doesn't own somewhere in the world.",
+
+    "config.highlight-unrevealed-gift-tastes.name": "Highlight unrevealed gift tastes",
+    "config.highlight-unrevealed-gift-tastes.desc": "Whether to highlight item gift tastes which haven't been revealed in the NPC profile. When enabled, unrevealed gift tastes will be bold.",
+
+    // advanced options
+    // TODO
+    "config.title.advanced-options": "Advanced options",
+    "config.tile-lookups.name": "Tile lookups",
+    "config.tile-lookups.desc": "Whether to include map tiles as lookup targets.",
+    "config.data-mining-fields.name": "Show data mining fields",
+    "config.data-mining-fields.desc": "Whether to show raw data useful for data miners (as separate fields at the bottom of lookup results). This is an advanced feature not intended for most players.",
+    "config.target-redirection.name": "Target redirection",
+    "config.target-redirection.desc": "In some cases the game spawns a temporary entity to represent another one. For example, Abigail in the mines is actually a temporary NPC with the name 'AbigailMine', so looking her up there won't show Abigail's real info. With this option enabled, Lookup Anything will look up the original Abigail instead.",
+    "config.scroll-amount.name": "Scroll amount",
+    "config.scroll-amount.desc": "The number of pixels to shift content on each up/down scroll.",
+
+    // controls section
+    // TODO
+    "config.title.controls": "Controls",
+    "config.hide-on-key-up.name": "Hide on key up",
+    "config.hide-on-key-up.desc": "Whether to hide the lookup UI when you release the lookup key.",
+    "config.toggle-lookup.name": "Toggle lookup",
+    "config.toggle-lookup.desc": "The keys which toggle the lookup UI for something under the cursor.",
+    "config.toggle-search.name": "Toggle search",
+    "config.toggle-search.desc": "The keys which toggle the search UI.",
+    "config.scroll-up.name": "Scroll up",
+    "config.scroll-up.desc": "The keys which scroll up long content by a few lines.",
+    "config.scroll-down.name": "Scroll down",
+    "config.scroll-down.desc": "The keys which scroll down long content by a few lines.",
+    "config.page-up.name": "Page up",
+    "config.page-up.desc": "The keys which scroll up long content by a full page.",
+    "config.page-down.name": "Page down",
+    "config.page-down.desc": "The keys which scroll down long content by a full page.",
+    "config.toggle-debug.name": "Toggle debug",
+    "config.toggle-debug.desc": "The keys which toggle the display of debug information."
 }

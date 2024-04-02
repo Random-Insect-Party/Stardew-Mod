@@ -1,4 +1,4 @@
-{
+﻿{
     /*********
     ** Generic translations
     *********/
@@ -84,84 +84,13 @@
     "data.npc.pet.description": "A hűséges háziállatod.",
     "data.npc.horse.description": "A hűséges hátasod.",
     "data.npc.junimo.description": "Egy erdeőlélek a lelkek világból. Nagyon keveset tudunk róluk.",
-    "data.npc.trashbear.description": "Egy barátságos lélek, aki összeszedi a szemetet.",
+    "data.npc.trash-bear.description": "Egy barátságos lélek, aki összeszedi a szemetet.",
 
     // item types
-    "data.type.debris": "Törmelék",
-    "data.type.stone": "Kő",
     "data.type.container": "Tartály",
 
-    // farm items
+    // override item text
     "data.item.egg-incubator.description": "Csibéket és pipéket keltet ki a tojásokból.",
-    "data.item.broken-branch.name": "Törött Ág",
-    "data.item.broken-branch.description": "Egy törött ág. Aprítsd fel egy baltával, hogy faanyagot szerezhess.",
-    "data.item.stone.name": "Kő",
-    "data.item.stone.description": "Egy meghatározhatatlan szürke kő. Törd szét, hogy kőhöz juss.",
-    "data.item.geode.name": "Geódát Tartalmazó Kőzet",
-    "data.item.geode.description": "Törd szét, hogy geódához juss.",
-    "data.item.frozen-geode.name": "Fagyos Geódát Tartalmazó Kőzet",
-    "data.item.frozen-geode.description": "Törd szét, hogy fagyos geódához juss.",
-    "data.item.magma-geode.name": "Magma Geódát Tartalmazó Kőzet",
-    "data.item.magma-geode.description": "Törd szét, hogy magma geódához juss.",
-
-    // weeds & crystals
-    "data.item.weed.name": "Gyom",
-    "data.item.weed.description": "Egy meghatározhatatlan gyom. Lehet, hogy tartalmaz növényi rostot, vagy kevert magvakat.",
-    "data.item.fertile-weed.name": "Termékeny Gyom",
-    "data.item.fertile-weed.description": "Garantáltan tartalmaz kevert magvakat.",
-    "data.item.ice-crystal.name": "Jégkristály",
-    "data.item.ice-crystal.description": "Egy meghatározhatatlan jégkristály. Nagyon kicsi eséllyel tartalmazhat finomított kvarcot.",
-
-    // mine gems
-    "data.item.amethyst-node.name": "Ametisztet Tartalmazó Kőzet",
-    "data.item.amethyst-node.description": "Törd szét, hogy ametiszthez juss.",
-    "data.item.aquamarine-node.name": "Akvamarint Tartalmaző Kőzet",
-    "data.item.aquamarine-node.description": "Törd szét, hogy akvamarinhoz juss.",
-    "data.item.diamond-node.name": "Gyémántot Tartalmazó Kőzet",
-    "data.item.diamond-node.description": "Törd szét, hogy gyémánthoz juss.",
-    "data.item.emerald-node.name": "Smaragdot Tartalmazó Kőzet",
-    "data.item.emerald-node.description": "Törd szét, hogy smaragdhoz juss.",
-    "data.item.gem-node.name": "Drágakövet Tartalmazó Kőzet",
-    "data.item.gem-node.description": "Törd szét, hogy smaragdhoz, akvamarinhoz, rubinhoz, ametiszthez, topázhoz, jádéhoz, vagy gyémánthoz juss.",
-    "data.item.jade-node.name": "Jádét Tartalmazó Kőzet",
-    "data.item.jade-node.description": "Törd szét, hogy jádéhoz juss.",
-    "data.item.mystic-stone.name": "Misztikus Kőzet",
-    "data.item.mystic-stone.description": "Törd szét, hogy ritka drágakövekhez, ércekhez, valamint prizmás töredékhez juss.",
-    "data.item.prismatic-node.name": "Prizmás Kőzet",
-    "data.item.prismatic-node.description": "Törd szét, hogy prizmás töredékhez juss.",
-    "data.item.ruby-node.name": "Rubint Tartalmazó Kőzet",
-    "data.item.ruby-node.description": "Törd szét, hogy rubinhoz juss.",
-    "data.item.topaz-node.name": "Topázt tartalmazó Kőzet",
-    "data.item.topaz-node.description": "Törd szét, hogy topázhoz juss.",
-
-    // mine ores
-    "data.item.cinder-shard-node.name": "Cinder Shard Node", // TODO
-    "data.item.cinder-shard-node.description": "Break apart to obtain cinder shards.", // TODO
-    "data.item.copper-node.name": "Rézércet Tartalmazó Kőzet",
-    "data.item.copper-node.description": "Törd szét, hogy rézérchez juss.",
-    "data.item.gold-node.name": "Aranyércet Tartalmazó Kőzet",
-    "data.item.gold-node.description": "Törd szét, hogy aranyérchez juss.",
-    "data.item.iridium-node.name": "Irídiumot Tartalmazó Kőzet",
-    "data.item.iridium-node.description": "Törd szét, hogy irídiumhoz juss.",
-    "data.item.iron-node.name": "Vasércet Tartalmazó Kőzet",
-    "data.item.iron-node.description": "Törd szét, hogy vasérchez juss.",
-    "data.item.omni-geode-node.name": "Omni Geode Node", // TODO
-    "data.item.omni-geode-node.description": "Break apart to obtain an omni geode.", // TODO
-
-    // mine stones
-    "data.item.colored-stone.name": "Színes Kő",
-    "data.item.colored-stone.description": "Egy meghatározhatatlan kő. Lehet, hogy tartalmaz követ, érceket, vagy geódákat.",
-    "data.item.mine-stone.name": "Kő",
-    "data.item.mine-stone.description": "Break apart to obtain stone with a chance of coal.", // TODO
-
-    // other stones
-    // TODO
-    "data.item.clay-stone.name": "Clay Stone",
-    "data.item.clay-stone.description": "Break apart to obtain clay.",
-    "data.item.fossil-stone.name": "Fossil Stone",
-    "data.item.fossil-stone.description": "Break apart to obtain fossils and bones.",
-
-    // mine containers
     "data.item.barrel.name": "Hordó",
     "data.item.barrel.description": "Törd szét, hogy különböző tárgyakhoz juss.",
     "data.item.box.name": "Doboz",
@@ -253,8 +182,7 @@
     "building.output-processing": "Termék feldolgozás alatt",
     "building.output-ready": "Termék kész",
     "building.slimes.summary": "{{count}} / {{max}} ragacs",
-    "building.stored-hay.summary-one-silo": "{{hayCount}} széna (maximum kapacitás: {{maxHay}})",
-    "building.stored-hay.summary-multiple-silos": "{{hayCount}} / {{siloCount}} széna a silókban (maximum kapacitás: {{maxHay}})",
+    "building.stored-hay.summary": "{{hayCount}} of {{maxHayInLocation}} hay in this location (max capacity in this building: {{maxHayInBuilding}})", // TODO
     "building.upgrades.barn.0": "maximum 4 állat fér el, elérhetőek lesznek a tehenek",
     "building.upgrades.barn.1": "maximum 8 állat fér el, elérhetőek lesznek a kecskék és a vemhesség",
     "building.upgrades.barn.2": "maximum 12 állat fér el, elérhetőek lesznek a disznók, juhok és az automatikus etetőrendszer",
@@ -354,6 +282,7 @@
     ** Item > generic lookups
     *********/
     // labels
+    "item.custom-item": "Custom item", // TODO
     "item.contents": "Tartalom",
     "item.loves-this": "Imádja",
     "item.likes-this": "Szereti",
@@ -372,6 +301,7 @@
     "item.produces-dye": "Festéket termel",
 
     // values
+    "item.custom-item.summary": "added by {{modName}}", // TODO
     "item.contents.placed": "{{name}} lehelyezett",
     "item.contents.ready": "{{name}} elkészült",
     "item.contents.partial": "{{name}} elkészül {{time}} múlva",
@@ -383,6 +313,7 @@
     "item.needed-for.full-collection": "teljes gyűjtemény teljesítmény (adományozz egyet a múzeumnak)",
     "item.needed-for.gourmet-chef": "ínyenc szakács teljesítmény (készíts még: {{recipes}})",
     "item.needed-for.craft-master": "kézműves mester teljesítmény (készíts még: {{recipes}})",
+    "item.needed-for.quests": "current quests ({{quests}})", // TODO
     "item.sells-to.shipping-box": "szállítmányos láda",
     "item.recipes-for-ingredient.entry": "{{name}} (szükséges: {{count}})",
     "item.recipes-for-machine.multiple-items": "{{name}} x{{count}}",
@@ -445,6 +376,30 @@
 
 
     /*********
+    ** Item > melee weapon lookups
+    *********/
+    // labels
+    // TODO
+    "item.melee-weapon.accuracy": "Accuracy",
+    "item.melee-weapon.critical-chance": "Critical chance",
+    "item.melee-weapon.critical-damage": "Critical damage",
+    "item.melee-weapon.damage": "Damage",
+    "item.melee-weapon.defense": "Defense",
+    "item.melee-weapon.knockback": "Knockback",
+    "item.melee-weapon.reach": "Reach",
+    "item.melee-weapon.speed": "Attack speed",
+
+    // values
+    // TODO
+    "item.melee-weapon.critical-damage.label": "{{multiplier}} times normal damage (before player bonuses)",
+    "item.melee-weapon.defense.label": "{{amount}} while equipped",
+    "item.melee-weapon.knockback.label": "{{amount}} ({{multiplier}} times normal distance)",
+    "item.melee-weapon.reach.label": "{{amount}} pixels",
+    "item.melee-weapon.speed.shown-vs-actual": "shown: {{shownSpeed}}{{lineBreak}}actual: {{actualSpeed}}",
+    "item.melee-weapon.speed.summary": "{{speed}} ({{milliseconds}} milliseconds per swing frame, before player speed bonuses)",
+
+
+    /*********
     ** Item > movie lookups
     *********/
     // labels
@@ -453,6 +408,7 @@
     "item.movie-ticket.loves-movie": "Imádja a filmet",
     "item.movie-ticket.likes-movie": "Szereti a filmet",
     "item.movie-ticket.dislikes-movie": "Nem szereti a filmet",
+    "item.movie-ticket.rejects-movie": "Won't watch movie", // TODO
 
     // values
     "item.movie-snack-preference.love": "{{name}} imádja ezt",
@@ -511,7 +467,7 @@
     "npc.friendship.need-bouquet": "a következőhöz adjál neki virágcsokrot.",
     "npc.friendship.need-points": "Következő szint {{count}} pont múlva",
     "npc.undiscovered-gift-taste": "{{count}} fel nem fedezett dolog",
-    "npc.undiscovered-gift-taste-appended": ", és {{count}} fel nem fedezett dolog",
+    "npc.unowned-gift-taste": "{{count}} unowned items", // TODO
 
 
     /*********
@@ -617,10 +573,10 @@
     // labels
     // TODO
     "puzzle.island-shrine.title": "Island Shrine Puzzle",
-    "puzzle.island-shrine.description": "For each pedestal, place the item dropped by gem birds in the corresponding island location when it rains. The items are randomized for each save.",
 
     // values
     // TODO
+    "puzzle.island-shrine.solution": "For each pedestal, place the item dropped by gem birds in the corresponding island location when it rains. The items are randomized for each save.",
     "puzzle.island-shrine.solution.east": "East: {{item}}",
     "puzzle.island-shrine.solution.north": "North: {{item}}",
     "puzzle.island-shrine.solution.south": "South: {{item}}",
@@ -659,7 +615,7 @@
     // labels
     "tree.stage": "Növekedési fázis",
     "tree.next-growth": "Következő növekedés",
-    "tree.has-seed": "Van magja",
+    "tree.seed": "Van magja",
     "tree.is-fertilized": "Megtermékenyített",
 
     // values
@@ -672,9 +628,12 @@
     "tree.name.unknown": "Ismeretlen Fa",
     "tree.stage.done": "Teljesen megnőtt",
     "tree.stage.partial": "{{stageName}} ({{step}} / {{max}})",
-    "tree.next-growth.winter": "télen nem tud növekedni, csak ha üvegházban van",
+    "tree.next-growth.winter": "télen nem tud növekedni, csak ha üvegházban van, hacsak nem trágyázzák",
     "tree.next-growth.adjacent-trees": "nem tud nőni, mert egy vagy több fa túl közel van",
     "tree.next-growth.chance": "{{chance}}% eséllyel lesz {{stage}} holnapra",
+    "tree.seed.not-ready": "Not ready", // TODO
+    "tree.seed.probability-daily": "{{chance}}% chance of {{itemName}} each day.", // TODO
+    "tree.seed.probability-on-chop": "{{chance}}% chance of dropping {{itemName}} when chopped down.", // TODO
 
     // growth stages
     "tree.stages.seed": "mag",
@@ -682,5 +641,69 @@
     "tree.stages.sapling": "csemete",
     "tree.stages.bush": "bokor",
     "tree.stages.smallTree": "kicsi fa",
-    "tree.stages.tree": "fa"
+    "tree.stages.tree": "fa",
+
+
+    /*********
+    ** Generic Mod Config Menu UI
+    *********/
+    // main options
+    // TODO
+    "config.title.main-options": "Main options",
+    "config.progression-mode.name": "Progression mode",
+    "config.progression-mode.desc": "Whether to hide some content (e.g. gift tastes and puzzle solutions) until you've discovered it in-game.",
+    "config.force-full-screen.name": "Force full screen",
+    "config.force-full-screen.desc": "Whether the menu should always be full-screen, instead of centered in the window. This is mainly useful when viewing data mining fields.",
+
+    // gift tastes
+    // TODO
+    "config.title.gift-tastes": "Gift tastes",
+    "config.show-gift-tastes.loved.name": "Show loved gifts",
+    "config.show-gift-tastes.loved.desc": "Whether to show loved gifts in NPC and item lookups.",
+    "config.show-gift-tastes.liked.name": "Show liked gifts",
+    "config.show-gift-tastes.liked.desc": "Whether to show liked gifts in NPC and item lookups.",
+    "config.show-gift-tastes.neutral.name": "Show neutral gifts",
+    "config.show-gift-tastes.neutral.desc": "Whether to show neutral gifts in NPC and item lookups.",
+    "config.show-gift-tastes.disliked.name": "Show disliked gifts",
+    "config.show-gift-tastes.disliked.desc": "Whether to show disliked gifts in NPC and item lookups.",
+    "config.show-gift-tastes.hated.name": "Show hated gifts",
+    "config.show-gift-tastes.hated.desc": "Whether to show hated gifts in NPC and item lookups.",
+
+    "config.show-unowned-gifts.name": "Show unowned gift tastes",
+    "config.show-unowned-gifts.desc": "Whether to show gift tastes for items that the player doesn't own somewhere in the world.",
+
+    "config.highlight-unrevealed-gift-tastes.name": "Highlight unrevealed gift tastes",
+    "config.highlight-unrevealed-gift-tastes.desc": "Whether to highlight item gift tastes which haven't been revealed in the NPC profile. When enabled, unrevealed gift tastes will be bold.",
+
+    // advanced options
+    // TODO
+    "config.title.advanced-options": "Advanced options",
+    "config.tile-lookups.name": "Tile lookups",
+    "config.tile-lookups.desc": "Whether to include map tiles as lookup targets.",
+    "config.data-mining-fields.name": "Show data mining fields",
+    "config.data-mining-fields.desc": "Whether to show raw data useful for data miners (as separate fields at the bottom of lookup results). This is an advanced feature not intended for most players.",
+    "config.target-redirection.name": "Target redirection",
+    "config.target-redirection.desc": "In some cases the game spawns a temporary entity to represent another one. For example, Abigail in the mines is actually a temporary NPC with the name 'AbigailMine', so looking her up there won't show Abigail's real info. With this option enabled, Lookup Anything will look up the original Abigail instead.",
+    "config.scroll-amount.name": "Scroll amount",
+    "config.scroll-amount.desc": "The number of pixels to shift content on each up/down scroll.",
+
+    // controls section
+    // TODO
+    "config.title.controls": "Controls",
+    "config.hide-on-key-up.name": "Hide on key up",
+    "config.hide-on-key-up.desc": "Whether to hide the lookup UI when you release the lookup key.",
+    "config.toggle-lookup.name": "Toggle lookup",
+    "config.toggle-lookup.desc": "The keys which toggle the lookup UI for something under the cursor.",
+    "config.toggle-search.name": "Toggle search",
+    "config.toggle-search.desc": "The keys which toggle the search UI.",
+    "config.scroll-up.name": "Scroll up",
+    "config.scroll-up.desc": "The keys which scroll up long content by a few lines.",
+    "config.scroll-down.name": "Scroll down",
+    "config.scroll-down.desc": "The keys which scroll down long content by a few lines.",
+    "config.page-up.name": "Page up",
+    "config.page-up.desc": "The keys which scroll up long content by a full page.",
+    "config.page-down.name": "Page down",
+    "config.page-down.desc": "The keys which scroll down long content by a full page.",
+    "config.toggle-debug.name": "Toggle debug",
+    "config.toggle-debug.desc": "The keys which toggle the display of debug information."
 }
